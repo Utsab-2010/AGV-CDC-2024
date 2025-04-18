@@ -1,0 +1,72 @@
+[0.333s] Invoking command in '/home/autodrive_devkit/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/slam_toolbox
+[0.350s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.454s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.465s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.489s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.491s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.495s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.503s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.512s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.538s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.539s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.656s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.692s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.713s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.725s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.728s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.785s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.798s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[0.818s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.820s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.821s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.822s] -- Found tf2_sensor_msgs: 0.25.7 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[0.826s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[0.832s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.837s] -- Found rviz_common: 11.2.13 (/opt/ros/humble/share/rviz_common/cmake)
+[0.846s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[0.851s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.852s] -- Found OGRE
+[0.852s] --   static     : OFF
+[0.852s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.852s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.852s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.852s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.852s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[0.852s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.852s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[0.853s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.853s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.853s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.853s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.853s] -- Could not find freeimage library
+[0.923s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.934s] -- Found rviz_default_plugins: 11.2.13 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[1.066s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[1.067s] -- Found required Ceres dependency: glog
+[1.068s] -- Found required Ceres dependency: gflags
+[1.068s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[1.396s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.839s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.011s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.037s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.062s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.062s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.062s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.143s] -- Configuring done
+[2.369s] -- Generating done
+[2.375s] -- Build files have been written to: /home/autodrive_devkit/build/slam_toolbox
+[2.395s] Invoked command in '/home/autodrive_devkit/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/slam_toolbox
+[2.397s] Invoking command in '/home/autodrive_devkit/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/build/slam_toolbox -- -j16 -l16
+[2.457s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_generator_c[0m
+[2.458s] [35m[1mConsolidate compiler generated dependencies of target kartoSlamToolbox[0m
+[2.469s] failed to create symbolic link '/home/autodrive_devkit/build/slam_toolbox/ament_cmake_python/slam_toolbox/slam_toolbox' because existing path cannot be removed: Is a directory
+[2.469s] [  1%] Built target slam_toolbox__cpp
+[2.469s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_slam_toolbox.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_slam_toolbox] Error 1
+[2.470s] gmake[1]: *** [CMakeFiles/Makefile2:467: CMakeFiles/ament_cmake_python_symlink_slam_toolbox.dir/all] Error 2
+[2.470s] gmake[1]: *** Waiting for unfinished jobs....
+[2.474s] [ 10%] Built target slam_toolbox__rosidl_generator_c
+[2.481s] [35m[1mConsolidate compiler generated dependencies of target slam_toolbox__rosidl_typesupport_cpp[0m
+[2.496s] [ 12%] Built target kartoSlamToolbox
+[2.501s] [ 20%] Built target slam_toolbox__rosidl_typesupport_cpp
+[2.502s] gmake: *** [Makefile:146: all] Error 2
+[2.504s] Invoked command in '/home/autodrive_devkit/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/build/slam_toolbox -- -j16 -l16

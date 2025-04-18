@@ -1,0 +1,1202 @@
+[0.014s] Invoking command in '/home/autodrive_devkit/build/nav2_msgs': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/autodrive_devkit/build/nav2_msgs -- -j16 -l16
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_generator_c[0m
+[0.070s] [  0%] Built target nav2_msgs__cpp
+[0.072s] [  0%] Built target ament_cmake_python_copy_nav2_msgs
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.090s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_cpp[0m
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.094s] [  1%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/navigate_through_poses__functions.c.o[0m
+[0.094s] [  1%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/compute_path_through_poses__functions.c.o[0m
+[0.134s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/navigate_through_poses__type_support.cpp.o[0m
+[0.134s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/navigate_through_poses__type_support.cpp.o[0m
+[0.134s] [  2%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/follow_waypoints__type_support.cpp.o[0m
+[0.134s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/compute_path_through_poses__type_support.cpp.o[0m
+[0.134s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/compute_path_through_poses__type_support.cpp.o[0m
+[0.135s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/follow_gps_waypoints__type_support.cpp.o[0m
+[0.138s] [  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/spin__type_support.cpp.o[0m
+[0.141s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/undock_robot__type_support.cpp.o[0m
+[0.141s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/dock_robot__type_support.cpp.o[0m
+[0.141s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/wait__type_support.cpp.o[0m
+[0.141s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/dummy_behavior__type_support.cpp.o[0m
+[0.141s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/compute_path_through_poses__type_support.cpp.o[0m
+[0.142s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/follow_path__type_support.cpp.o[0m
+[0.310s] running egg_info
+[0.312s] writing nav2_msgs.egg-info/PKG-INFO
+[0.313s] writing dependency_links to nav2_msgs.egg-info/dependency_links.txt
+[0.313s] writing top-level names to nav2_msgs.egg-info/top_level.txt
+[0.318s] reading manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[0.319s] writing manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+[0.378s] [  7%] Built target ament_cmake_python_build_nav2_msgs_egg
+[0.408s] [  7%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/follow_waypoints__type_support.cpp.o[0m
+[0.600s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/follow_gps_waypoints__type_support.cpp.o[0m
+[0.679s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/navigate_to_pose__type_support.cpp.o[0m
+[0.679s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/dock_robot__type_support.cpp.o[0m
+[0.688s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/undock_robot__type_support.cpp.o[0m
+[0.696s] [  8%] [32m[1mLinking C shared library libnav2_msgs__rosidl_generator_c.so[0m
+[0.719s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/navigate_through_poses__type_support.cpp.o[0m
+[0.819s] [ 19%] Built target nav2_msgs__rosidl_generator_c
+[0.832s] [ 19%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/wait__type_support.cpp.o[0m
+[0.883s] [ 20%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/spin__type_support.cpp.o[0m
+[0.893s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.895s] [ 21%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_cpp.so[0m
+[0.966s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/follow_waypoints__type_support.cpp.o[0m
+[0.968s] [ 21%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/dummy_behavior__type_support.cpp.o[0m
+[1.007s] [ 22%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/follow_gps_waypoints__type_support.cpp.o[0m
+[1.018s] [ 32%] Built target nav2_msgs__rosidl_typesupport_cpp
+[1.029s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/dock_robot__type_support.cpp.o[0m
+[1.033s] [ 33%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.080s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/undock_robot__type_support.cpp.o[0m
+[1.162s] [ 34%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.503s] [ 35%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[1.613s] [ 44%] Built target nav2_msgs__rosidl_typesupport_introspection_cpp
+[1.854s] [ 44%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[1.927s] [ 52%] Built target nav2_msgs__rosidl_typesupport_fastrtps_cpp
+[3.714s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap__type_support.cpp.o[0m
+[3.714s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/collision_monitor_state__type_support.cpp.o[0m
+[3.714s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/speed_limit__type_support.cpp.o[0m
+[3.714s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap_update__type_support.cpp.o[0m
+[3.715s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/voxel_grid__type_support.cpp.o[0m
+[3.715s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/behavior_tree_status_change__type_support.cpp.o[0m
+[3.715s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap_filter_info__type_support.cpp.o[0m
+[3.717s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/collision_detector_state__type_support.cpp.o[0m
+[3.719s] [ 53%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/particle_cloud__type_support.cpp.o[0m
+[3.719s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/costmap_meta_data__type_support.cpp.o[0m
+[3.720s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/particle__type_support.cpp.o[0m
+[3.721s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/behavior_tree_log__type_support.cpp.o[0m
+[3.721s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/msg/missed_waypoint__type_support.cpp.o[0m
+[3.721s] [ 56%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/get_costs__type_support.cpp.o[0m
+[3.751s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/is_path_valid__type_support.cpp.o[0m
+[3.751s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/clear_costmap_around_robot__type_support.cpp.o[0m
+[3.751s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/get_costmap__type_support.cpp.o[0m
+[3.751s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/manage_lifecycle_nodes__type_support.cpp.o[0m
+[3.751s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/clear_entire_costmap__type_support.cpp.o[0m
+[3.751s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/set_initial_pose__type_support.cpp.o[0m
+[3.751s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/save_map__type_support.cpp.o[0m
+[3.751s] [ 58%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/load_map__type_support.cpp.o[0m
+[3.751s] [ 59%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/reload_dock_database__type_support.cpp.o[0m
+[3.751s] [ 59%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/assisted_teleop__type_support.cpp.o[0m
+[3.752s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/srv/clear_costmap_except_region__type_support.cpp.o[0m
+[3.753s] [ 59%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/back_up__type_support.cpp.o[0m
+[3.755s] [ 59%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/compute_path_to_pose__type_support.cpp.o[0m
+[3.762s] [ 60%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/compute_path_through_poses__type_support.cpp.o[0m
+[3.788s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/smooth_path__type_support.cpp.o[0m
+[3.788s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/navigate_to_pose__type_support.cpp.o[0m
+[3.788s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/drive_on_heading__type_support.cpp.o[0m
+[3.788s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/dummy_behavior__type_support.cpp.o[0m
+[3.788s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/follow_waypoints__type_support.cpp.o[0m
+[3.788s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/spin__type_support.cpp.o[0m
+[3.788s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/follow_path__type_support.cpp.o[0m
+[3.788s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/wait__type_support.cpp.o[0m
+[3.789s] [ 63%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/follow_gps_waypoints__type_support.cpp.o[0m
+[3.789s] [ 62%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/navigate_through_poses__type_support.cpp.o[0m
+[3.816s] [ 63%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/dock_robot__type_support.cpp.o[0m
+[3.822s] [ 63%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav2_msgs/action/undock_robot__type_support.cpp.o[0m
+[3.879s] [ 64%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_c.so[0m
+[3.930s] [ 64%] Built target nav2_msgs__rosidl_typesupport_c
+[4.524s] [ 64%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/collision_detector_state__type_support.c.o[0m
+[4.525s] [ 64%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap_meta_data__type_support.c.o[0m
+[4.525s] [ 64%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap_filter_info__type_support.c.o[0m
+[4.525s] [ 64%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/collision_monitor_state__type_support.c.o[0m
+[4.525s] [ 65%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap__type_support.c.o[0m
+[4.526s] [ 66%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/speed_limit__type_support.c.o[0m
+[4.526s] [ 66%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/particle_cloud__type_support.c.o[0m
+[4.526s] [ 67%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/behavior_tree_log__type_support.c.o[0m
+[4.526s] [ 67%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/get_costs__type_support.c.o[0m
+[4.526s] [ 67%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/get_costmap__type_support.c.o[0m
+[4.526s] [ 67%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.c.o[0m
+[4.527s] [ 67%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/particle__type_support.c.o[0m
+[4.527s] [ 68%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/missed_waypoint__type_support.c.o[0m
+[4.531s] [ 68%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/costmap_update__type_support.c.o[0m
+[4.531s] [ 68%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/msg/detail/voxel_grid__type_support.c.o[0m
+[4.567s] [ 69%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.c.o[0m
+[4.567s] [ 69%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.c.o[0m
+[4.567s] [ 69%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/is_path_valid__type_support.c.o[0m
+[4.569s] [ 70%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/load_map__type_support.c.o[0m
+[4.569s] [ 70%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.c.o[0m
+[4.569s] [ 70%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/clear_entire_costmap__type_support.c.o[0m
+[4.573s] [ 70%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/save_map__type_support.c.o[0m
+[4.574s] [ 71%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/set_initial_pose__type_support.c.o[0m
+[4.574s] [ 71%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/srv/detail/reload_dock_database__type_support.c.o[0m
+[4.575s] [ 71%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/assisted_teleop__type_support.c.o[0m
+[4.575s] [ 71%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/back_up__type_support.c.o[0m
+[4.577s] [ 72%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/compute_path_to_pose__type_support.c.o[0m
+[4.578s] [ 72%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/compute_path_through_poses__type_support.c.o[0m
+[4.586s] [ 72%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/drive_on_heading__type_support.c.o[0m
+[4.587s] [ 72%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/smooth_path__type_support.c.o[0m
+[4.618s] [ 72%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/navigate_through_poses__type_support.c.o[0m
+[4.618s] [ 72%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/navigate_to_pose__type_support.c.o[0m
+[4.618s] [ 73%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/follow_path__type_support.c.o[0m
+[4.620s] [ 74%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/wait__type_support.c.o[0m
+[4.621s] [ 74%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/spin__type_support.c.o[0m
+[4.621s] [ 74%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/dummy_behavior__type_support.c.o[0m
+[4.626s] [ 75%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/follow_gps_waypoints__type_support.c.o[0m
+[4.626s] [ 75%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/follow_waypoints__type_support.c.o[0m
+[4.626s] [ 75%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/dock_robot__type_support.c.o[0m
+[4.650s] [ 75%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav2_msgs/action/detail/undock_robot__type_support.c.o[0m
+[4.710s] [ 76%] [32m[1mLinking C shared library libnav2_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.768s] [ 76%] Built target nav2_msgs__rosidl_typesupport_introspection_c
+[4.860s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap_meta_data__type_support_c.cpp.o[0m
+[4.860s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/collision_monitor_state__type_support_c.cpp.o[0m
+[4.861s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap__type_support_c.cpp.o[0m
+[4.861s] [ 78%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/speed_limit__type_support_c.cpp.o[0m
+[4.861s] [ 78%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/voxel_grid__type_support_c.cpp.o[0m
+[4.861s] [ 78%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/collision_detector_state__type_support_c.cpp.o[0m
+[4.861s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/behavior_tree_log__type_support_c.cpp.o[0m
+[4.862s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/behavior_tree_status_change__type_support_c.cpp.o[0m
+[4.866s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/particle_cloud__type_support_c.cpp.o[0m
+[4.866s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/particle__type_support_c.cpp.o[0m
+[4.867s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap_update__type_support_c.cpp.o[0m
+[4.867s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/costmap_filter_info__type_support_c.cpp.o[0m
+[4.867s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/msg/detail/missed_waypoint__type_support_c.cpp.o[0m
+[4.867s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/get_costmap__type_support_c.cpp.o[0m
+[4.868s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/get_costs__type_support_c.cpp.o[0m
+[4.868s] [ 80%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/is_path_valid__type_support_c.cpp.o[0m
+[5.248s] [ 81%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/clear_costmap_except_region__type_support_c.cpp.o[0m
+[5.248s] [ 81%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support_c.cpp.o[0m
+[5.258s] [ 81%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/clear_entire_costmap__type_support_c.cpp.o[0m
+[5.259s] [ 81%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support_c.cpp.o[0m
+[5.263s] [ 82%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[5.275s] [ 82%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/save_map__type_support_c.cpp.o[0m
+[5.288s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/set_initial_pose__type_support_c.cpp.o[0m
+[5.288s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/srv/detail/reload_dock_database__type_support_c.cpp.o[0m
+[5.288s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/assisted_teleop__type_support_c.cpp.o[0m
+[5.292s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/back_up__type_support_c.cpp.o[0m
+[5.299s] [ 84%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/compute_path_to_pose__type_support_c.cpp.o[0m
+[5.301s] [ 84%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/smooth_path__type_support_c.cpp.o[0m
+[5.301s] [ 84%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/drive_on_heading__type_support_c.cpp.o[0m
+[5.301s] [ 84%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/compute_path_through_poses__type_support_c.cpp.o[0m
+[5.301s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/follow_path__type_support_c.cpp.o[0m
+[5.328s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/navigate_to_pose__type_support_c.cpp.o[0m
+[5.678s] [ 86%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/navigate_through_poses__type_support_c.cpp.o[0m
+[5.679s] [ 86%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/wait__type_support_c.cpp.o[0m
+[5.682s] [ 86%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/spin__type_support_c.cpp.o[0m
+[5.689s] [ 86%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/dummy_behavior__type_support_c.cpp.o[0m
+[5.725s] [ 86%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/follow_waypoints__type_support_c.cpp.o[0m
+[5.732s] [ 87%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/follow_gps_waypoints__type_support_c.cpp.o[0m
+[5.743s] [ 87%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/dock_robot__type_support_c.cpp.o[0m
+[5.779s] [ 87%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav2_msgs/action/detail/undock_robot__type_support_c.cpp.o[0m
+[6.211s] [ 88%] [32m[1mLinking CXX shared library libnav2_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[6.299s] [ 88%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c
+[6.326s] [ 88%] Built target nav2_msgs
+[6.354s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.824s] [ 88%] Built target nav2_msgs__py
+[13.844s] [ 89%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_voxel_grid_s.c.o[0m
+[13.846s] [ 89%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_behavior_tree_status_change_s.c.o[0m
+[13.847s] [ 89%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_filter_info_s.c.o[0m
+[13.848s] [ 89%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_is_path_valid_s.c.o[0m
+[13.848s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_collision_monitor_state_s.c.o[0m
+[13.848s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_collision_detector_state_s.c.o[0m
+[13.848s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_s.c.o[0m
+[13.848s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_meta_data_s.c.o[0m
+[13.849s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_get_costs_s.c.o[0m
+[13.849s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_behavior_tree_log_s.c.o[0m
+[13.850s] [ 90%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_particle_cloud_s.c.o[0m
+[13.850s] [ 91%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_costmap_update_s.c.o[0m
+[13.850s] [ 91%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_missed_waypoint_s.c.o[0m
+[13.851s] [ 91%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_speed_limit_s.c.o[0m
+[13.851s] [ 92%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/msg/_particle_s.c.o[0m
+[13.852s] [ 93%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_get_costmap_s.c.o[0m
+[13.982s] [ 93%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_clear_costmap_except_region_s.c.o[0m
+[13.982s] [ 94%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_clear_costmap_around_robot_s.c.o[0m
+[13.983s] [ 94%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_clear_entire_costmap_s.c.o[0m
+[13.987s] [ 94%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_manage_lifecycle_nodes_s.c.o[0m
+[13.988s] [ 94%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_load_map_s.c.o[0m
+[13.988s] [ 95%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_save_map_s.c.o[0m
+[13.995s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_back_up_s.c.o[0m
+[13.995s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_set_initial_pose_s.c.o[0m
+[13.996s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_assisted_teleop_s.c.o[0m
+[13.996s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/srv/_reload_dock_database_s.c.o[0m
+[14.008s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_compute_path_to_pose_s.c.o[0m
+[14.011s] [ 96%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_compute_path_through_poses_s.c.o[0m
+[14.017s] [ 97%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_drive_on_heading_s.c.o[0m
+[14.018s] [ 97%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_smooth_path_s.c.o[0m
+[14.032s] [ 97%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_follow_path_s.c.o[0m
+[14.041s] [ 98%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_navigate_to_pose_s.c.o[0m
+[14.138s] [ 98%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_wait_s.c.o[0m
+[14.138s] [ 98%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_navigate_through_poses_s.c.o[0m
+[14.138s] [ 99%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_spin_s.c.o[0m
+[14.144s] [ 99%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_dummy_behavior_s.c.o[0m
+[14.150s] [ 99%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_follow_waypoints_s.c.o[0m
+[14.150s] [ 99%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_follow_gps_waypoints_s.c.o[0m
+[14.152s] [100%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_dock_robot_s.c.o[0m
+[14.165s] [100%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav2_msgs/action/_undock_robot_s.c.o[0m
+[14.409s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/libnav2_msgs__rosidl_generator_py.so[0m
+[14.470s] [100%] Built target nav2_msgs__rosidl_generator_py
+[14.491s] [100%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[14.491s] [100%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[14.494s] [100%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.696s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.702s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.703s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[15.745s] [100%] Built target nav2_msgs__rosidl_typesupport_c__pyext
+[15.748s] [100%] Built target nav2_msgs__rosidl_typesupport_fastrtps_c__pyext
+[15.749s] [100%] Built target nav2_msgs__rosidl_typesupport_introspection_c__pyext
+[15.765s] Invoked command in '/home/autodrive_devkit/build/nav2_msgs' returned '0': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/autodrive_devkit/build/nav2_msgs -- -j16 -l16
+[17.027s] Invoking command in '/home/autodrive_devkit/build/nav2_msgs': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/autodrive_devkit/build/nav2_msgs
+[17.038s] -- Install configuration: "Release"
+[17.038s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/ament_index/resource_index/rosidl_interfaces/nav2_msgs
+[17.038s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[17.038s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[17.038s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/back_up.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/dummy_behavior.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/spin.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/dock_robot.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/smooth_path.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__type_support.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__functions.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__struct.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__type_support.h
+[17.039s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__struct.h
+[17.040s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.h
+[17.040s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__functions.h
+[17.040s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__struct.h
+[17.040s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__type_support.h
+[17.040s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__type_support.h
+[17.040s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__type_support.h
+[17.040s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__functions.c
+[17.040s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.h
+[17.041s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__type_support.h
+[17.041s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__functions.h
+[17.041s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__struct.h
+[17.041s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__functions.h
+[17.041s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__functions.c
+[17.041s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__type_support.h
+[17.041s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__functions.h
+[17.041s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__struct.h
+[17.042s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__functions.c
+[17.042s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.h
+[17.042s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__functions.h
+[17.042s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__struct.h
+[17.042s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__type_support.h
+[17.042s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__struct.h
+[17.042s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__functions.h
+[17.043s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__type_support.h
+[17.043s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.h
+[17.043s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__struct.h
+[17.043s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__type_support.h
+[17.043s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__functions.h
+[17.043s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__functions.c
+[17.043s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__functions.h
+[17.043s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__struct.h
+[17.043s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__functions.c
+[17.044s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__functions.c
+[17.044s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__type_support.h
+[17.044s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__functions.c
+[17.044s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__functions.h
+[17.044s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__functions.c
+[17.044s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__functions.c
+[17.045s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__functions.c
+[17.045s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__functions.h
+[17.045s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__struct.h
+[17.045s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__functions.c
+[17.045s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__struct.h
+[17.045s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__type_support.h
+[17.045s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.h
+[17.046s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__functions.h
+[17.046s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__functions.h
+[17.046s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__functions.c
+[17.046s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__struct.h
+[17.046s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__struct.h
+[17.046s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__functions.h
+[17.046s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__functions.h
+[17.047s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__functions.h
+[17.047s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.h
+[17.047s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__functions.c
+[17.047s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__functions.c
+[17.047s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__functions.c
+[17.047s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.h
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__functions.c
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_through_poses.h
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_gps_waypoints.h
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.h
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.h
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/assisted_teleop.h
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_to_pose.h
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/drive_on_heading.h
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_path.h
+[17.048s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/undock_robot.h
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/wait.h
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_generator_c__visibility_control.h
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_log.h
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.h
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/collision_monitor_state.h
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.h
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/missed_waypoint.h
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_status_change.h
+[17.049s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/collision_detector_state.h
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/voxel_grid.h
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.h
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_meta_data.h
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle.h
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__functions.c
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.h
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__struct.h
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__struct.h
+[17.050s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__functions.c
+[17.051s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__functions.c
+[17.051s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.h
+[17.051s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__type_support.h
+[17.051s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__functions.h
+[17.051s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__functions.c
+[17.051s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__functions.c
+[17.051s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__struct.h
+[17.051s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__functions.h
+[17.051s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__type_support.h
+[17.052s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__functions.h
+[17.052s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__functions.h
+[17.052s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__functions.c
+[17.052s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__functions.h
+[17.052s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__functions.h
+[17.052s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__functions.h
+[17.052s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__functions.c
+[17.052s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__struct.h
+[17.052s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__type_support.h
+[17.053s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__functions.c
+[17.053s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__type_support.h
+[17.053s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__functions.h
+[17.053s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__type_support.h
+[17.053s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__type_support.h
+[17.053s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__type_support.h
+[17.053s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__functions.c
+[17.053s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__functions.h
+[17.054s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__type_support.h
+[17.055s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__type_support.h
+[17.055s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__functions.h
+[17.055s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__type_support.h
+[17.055s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__functions.c
+[17.056s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__struct.h
+[17.056s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__struct.h
+[17.056s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__functions.h
+[17.056s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__struct.h
+[17.056s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__functions.c
+[17.056s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__functions.c
+[17.056s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__type_support.h
+[17.056s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__struct.h
+[17.056s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.h
+[17.057s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__struct.h
+[17.057s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.h
+[17.057s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.h
+[17.057s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__functions.h
+[17.057s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__functions.c
+[17.057s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.h
+[17.057s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__functions.h
+[17.057s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/speed_limit.h
+[17.057s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_filter_info.h
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costs.h
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.h
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.h
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/set_initial_pose.h
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.h
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.h
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/reload_dock_database.h
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[17.058s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.h
+[17.059s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__functions.c
+[17.059s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__struct.h
+[17.059s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__struct.h
+[17.059s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__type_support.h
+[17.059s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.h
+[17.059s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__functions.h
+[17.059s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__functions.h
+[17.059s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__functions.c
+[17.059s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__functions.h
+[17.060s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__type_support.h
+[17.060s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__functions.h
+[17.060s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__functions.h
+[17.060s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.h
+[17.060s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__functions.h
+[17.060s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.h
+[17.060s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__functions.c
+[17.060s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.h
+[17.061s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__functions.c
+[17.061s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__struct.h
+[17.061s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__functions.h
+[17.061s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__functions.h
+[17.061s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__functions.c
+[17.061s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__functions.c
+[17.061s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.h
+[17.061s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__functions.h
+[17.062s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__type_support.h
+[17.062s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__struct.h
+[17.062s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.h
+[17.062s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.h
+[17.062s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__functions.c
+[17.062s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__functions.h
+[17.062s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.h
+[17.062s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__functions.c
+[17.062s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__type_support.h
+[17.063s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.h
+[17.063s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__type_support.h
+[17.063s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__functions.c
+[17.063s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__functions.c
+[17.063s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__functions.h
+[17.063s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__struct.h
+[17.063s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__functions.c
+[17.063s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.h
+[17.063s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__struct.h
+[17.064s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.h
+[17.064s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/is_path_valid.h
+[17.064s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/load_map.h
+[17.064s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/save_map.h
+[17.064s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/environment/library_path.sh
+[17.064s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/environment/library_path.dsv
+[17.064s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so
+[17.066s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_c.so" to ""
+[17.066s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[17.066s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[17.066s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[17.066s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_fastrtps_c.h
+[17.066s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_fastrtps_c.h
+[17.066s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_fastrtps_c.h
+[17.066s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__rosidl_typesupport_fastrtps_c.h
+[17.066s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_fastrtps_c.h
+[17.066s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_fastrtps_c.h
+[17.067s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_fastrtps_c.h
+[17.067s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_fastrtps_c.h
+[17.067s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_fastrtps_c.h
+[17.067s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_fastrtps_c.h
+[17.067s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__rosidl_typesupport_fastrtps_c.h
+[17.067s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__rosidl_typesupport_fastrtps_c.h
+[17.067s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_fastrtps_c.h
+[17.067s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_fastrtps_c.h
+[17.068s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_fastrtps_c.h
+[17.068s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_fastrtps_c.h
+[17.068s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[17.068s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[17.068s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_fastrtps_c.h
+[17.068s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__rosidl_typesupport_fastrtps_c.h
+[17.068s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_c.h
+[17.068s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_fastrtps_c.h
+[17.068s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_fastrtps_c.h
+[17.068s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__rosidl_typesupport_fastrtps_c.h
+[17.069s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__rosidl_typesupport_fastrtps_c.h
+[17.069s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__rosidl_typesupport_fastrtps_c.h
+[17.069s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_fastrtps_c.h
+[17.069s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_fastrtps_c.h
+[17.069s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_fastrtps_c.h
+[17.069s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_fastrtps_c.h
+[17.069s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_fastrtps_c.h
+[17.069s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[17.069s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[17.069s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[17.070s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_fastrtps_c.h
+[17.070s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_fastrtps_c.h
+[17.070s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__rosidl_typesupport_fastrtps_c.h
+[17.070s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__rosidl_typesupport_fastrtps_c.h
+[17.070s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[17.070s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[17.070s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_fastrtps_c.h
+[17.070s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__rosidl_typesupport_fastrtps_c.h
+[17.070s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_fastrtps_c.h
+[17.071s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_fastrtps_c.h
+[17.071s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_fastrtps_c.h
+[17.071s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so
+[17.072s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[17.072s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[17.072s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[17.072s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/dock_robot.hpp
+[17.072s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/dummy_behavior.hpp
+[17.072s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/back_up.hpp
+[17.072s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_to_pose.hpp
+[17.072s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[17.072s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__traits.hpp
+[17.072s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__builder.hpp
+[17.073s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__builder.hpp
+[17.073s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__traits.hpp
+[17.073s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__traits.hpp
+[17.073s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__struct.hpp
+[17.073s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__builder.hpp
+[17.073s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__struct.hpp
+[17.073s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__struct.hpp
+[17.074s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__traits.hpp
+[17.074s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__builder.hpp
+[17.074s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__builder.hpp
+[17.074s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__struct.hpp
+[17.074s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__struct.hpp
+[17.074s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__traits.hpp
+[17.074s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__traits.hpp
+[17.075s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__traits.hpp
+[17.075s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__traits.hpp
+[17.075s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__traits.hpp
+[17.075s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__traits.hpp
+[17.075s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__builder.hpp
+[17.075s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__traits.hpp
+[17.075s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__builder.hpp
+[17.076s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__traits.hpp
+[17.076s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__builder.hpp
+[17.076s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__builder.hpp
+[17.076s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__struct.hpp
+[17.076s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__traits.hpp
+[17.076s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__struct.hpp
+[17.076s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__builder.hpp
+[17.077s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__struct.hpp
+[17.077s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__builder.hpp
+[17.077s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__traits.hpp
+[17.078s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__traits.hpp
+[17.078s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__struct.hpp
+[17.078s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__struct.hpp
+[17.078s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__builder.hpp
+[17.078s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__struct.hpp
+[17.078s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__builder.hpp
+[17.078s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__traits.hpp
+[17.079s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__builder.hpp
+[17.079s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__struct.hpp
+[17.079s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__struct.hpp
+[17.079s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__builder.hpp
+[17.079s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__struct.hpp
+[17.079s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__builder.hpp
+[17.079s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__struct.hpp
+[17.080s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__struct.hpp
+[17.080s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/spin.hpp
+[17.080s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/drive_on_heading.hpp
+[17.080s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/smooth_path.hpp
+[17.080s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/assisted_teleop.hpp
+[17.080s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_waypoints.hpp
+[17.080s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_to_pose.hpp
+[17.080s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/compute_path_through_poses.hpp
+[17.080s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/undock_robot.hpp
+[17.081s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/wait.hpp
+[17.081s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_gps_waypoints.hpp
+[17.081s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/follow_path.hpp
+[17.081s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/navigate_through_poses.hpp
+[17.081s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[17.081s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/collision_detector_state.hpp
+[17.081s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/voxel_grid.hpp
+[17.081s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_log.hpp
+[17.081s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap.hpp
+[17.082s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/missed_waypoint.hpp
+[17.082s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/speed_limit.hpp
+[17.082s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle.hpp
+[17.082s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_meta_data.hpp
+[17.082s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/particle_cloud.hpp
+[17.082s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[17.082s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__traits.hpp
+[17.082s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__struct.hpp
+[17.082s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__traits.hpp
+[17.082s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__builder.hpp
+[17.083s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__traits.hpp
+[17.083s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__builder.hpp
+[17.083s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__builder.hpp
+[17.083s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__traits.hpp
+[17.083s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__struct.hpp
+[17.083s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__builder.hpp
+[17.083s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__struct.hpp
+[17.083s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__traits.hpp
+[17.083s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__traits.hpp
+[17.084s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__traits.hpp
+[17.084s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__builder.hpp
+[17.084s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__builder.hpp
+[17.084s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__struct.hpp
+[17.084s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__traits.hpp
+[17.084s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__builder.hpp
+[17.084s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__builder.hpp
+[17.084s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__traits.hpp
+[17.085s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__builder.hpp
+[17.085s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__struct.hpp
+[17.085s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__builder.hpp
+[17.085s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__builder.hpp
+[17.085s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__struct.hpp
+[17.085s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__builder.hpp
+[17.085s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__struct.hpp
+[17.085s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp
+[17.085s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__traits.hpp
+[17.086s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__struct.hpp
+[17.086s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__struct.hpp
+[17.086s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__traits.hpp
+[17.086s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__struct.hpp
+[17.086s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__traits.hpp
+[17.086s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__struct.hpp
+[17.086s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__struct.hpp
+[17.086s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__builder.hpp
+[17.087s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__struct.hpp
+[17.087s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_filter_info.hpp
+[17.087s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/behavior_tree_status_change.hpp
+[17.087s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/costmap_update.hpp
+[17.087s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/collision_monitor_state.hpp
+[17.087s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[17.087s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/save_map.hpp
+[17.087s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_around_robot.hpp
+[17.087s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costmap.hpp
+[17.088s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/manage_lifecycle_nodes.hpp
+[17.088s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/is_path_valid.hpp
+[17.088s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/load_map.hpp
+[17.088s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/reload_dock_database.hpp
+[17.088s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[17.088s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp
+[17.088s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__traits.hpp
+[17.088s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__builder.hpp
+[17.088s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__traits.hpp
+[17.089s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__builder.hpp
+[17.089s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__struct.hpp
+[17.089s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp
+[17.089s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__traits.hpp
+[17.089s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__traits.hpp
+[17.089s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__struct.hpp
+[17.089s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__struct.hpp
+[17.090s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__builder.hpp
+[17.090s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__traits.hpp
+[17.090s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__struct.hpp
+[17.090s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__builder.hpp
+[17.090s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__traits.hpp
+[17.090s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__struct.hpp
+[17.090s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__struct.hpp
+[17.090s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__traits.hpp
+[17.090s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__traits.hpp
+[17.091s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__struct.hpp
+[17.091s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__traits.hpp
+[17.091s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__builder.hpp
+[17.091s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__struct.hpp
+[17.091s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__builder.hpp
+[17.091s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__builder.hpp
+[17.091s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__builder.hpp
+[17.091s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__traits.hpp
+[17.092s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__builder.hpp
+[17.092s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__builder.hpp
+[17.092s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__struct.hpp
+[17.092s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__traits.hpp
+[17.092s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__struct.hpp
+[17.092s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/get_costs.hpp
+[17.092s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/set_initial_pose.hpp
+[17.092s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_entire_costmap.hpp
+[17.092s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/clear_costmap_except_region.hpp
+[17.093s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[17.093s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[17.093s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[17.093s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[17.093s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_fastrtps_cpp.hpp
+[17.093s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_fastrtps_cpp.hpp
+[17.093s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[17.093s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_fastrtps_cpp.hpp
+[17.094s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[17.094s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_fastrtps_cpp.hpp
+[17.094s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[17.094s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_fastrtps_cpp.hpp
+[17.094s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[17.094s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dds_fastrtps
+[17.094s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_fastrtps_cpp.hpp
+[17.094s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_fastrtps_cpp.hpp
+[17.095s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_fastrtps_cpp.hpp
+[17.095s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_fastrtps_cpp.hpp
+[17.095s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[17.095s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_fastrtps_cpp.hpp
+[17.095s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[17.095s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[17.095s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[17.095s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[17.095s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_fastrtps_cpp.hpp
+[17.096s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_fastrtps_cpp.hpp
+[17.096s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_fastrtps_cpp.hpp
+[17.096s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__rosidl_typesupport_fastrtps_cpp.hpp
+[17.096s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[17.096s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_fastrtps_cpp.hpp
+[17.096s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/dds_fastrtps
+[17.096s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_fastrtps_cpp.hpp
+[17.096s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[17.096s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[17.097s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[17.097s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__rosidl_typesupport_fastrtps_cpp.hpp
+[17.097s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[17.097s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[17.097s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[17.097s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[17.097s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_fastrtps_cpp.hpp
+[17.097s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__rosidl_typesupport_fastrtps_cpp.hpp
+[17.097s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[17.098s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_fastrtps_cpp.hpp
+[17.098s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__rosidl_typesupport_fastrtps_cpp.hpp
+[17.098s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_fastrtps_cpp.hpp
+[17.098s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[17.098s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/dds_fastrtps
+[17.098s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_fastrtps_cpp.hpp
+[17.098s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_fastrtps_cpp.hpp
+[17.098s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[17.099s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so
+[17.100s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[17.100s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[17.100s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[17.100s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[17.100s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_introspection_c.h
+[17.100s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.c
+[17.100s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_introspection_c.h
+[17.100s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__rosidl_typesupport_introspection_c.h
+[17.101s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.c
+[17.101s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__type_support.c
+[17.101s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_introspection_c.h
+[17.101s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_introspection_c.h
+[17.101s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__type_support.c
+[17.101s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__type_support.c
+[17.102s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__type_support.c
+[17.102s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__rosidl_typesupport_introspection_c.h
+[17.102s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__type_support.c
+[17.102s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__type_support.c
+[17.102s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_introspection_c.h
+[17.102s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.c
+[17.103s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__type_support.c
+[17.103s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__rosidl_typesupport_introspection_c.h
+[17.103s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_introspection_c.h
+[17.103s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__type_support.c
+[17.103s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_introspection_c.h
+[17.103s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__type_support.c
+[17.103s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_introspection_c.h
+[17.104s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_introspection_c.h
+[17.104s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.c
+[17.104s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_introspection_c.h
+[17.104s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__type_support.c
+[17.104s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_introspection_c.h
+[17.104s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__type_support.c
+[17.105s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__type_support.c
+[17.105s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_introspection_c.h
+[17.105s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_introspection_c.h
+[17.105s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[17.105s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[17.105s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[17.105s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.c
+[17.105s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_c.h
+[17.105s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__rosidl_typesupport_introspection_c.h
+[17.105s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__type_support.c
+[17.105s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_introspection_c.h
+[17.106s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_introspection_c.h
+[17.106s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__type_support.c
+[17.106s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__rosidl_typesupport_introspection_c.h
+[17.106s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__type_support.c
+[17.106s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__type_support.c
+[17.106s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__type_support.c
+[17.106s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__rosidl_typesupport_introspection_c.h
+[17.106s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__type_support.c
+[17.107s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_introspection_c.h
+[17.107s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_introspection_c.h
+[17.107s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_introspection_c.h
+[17.107s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_introspection_c.h
+[17.107s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_introspection_c.h
+[17.107s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__type_support.c
+[17.107s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__type_support.c
+[17.107s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__type_support.c
+[17.107s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__rosidl_typesupport_introspection_c.h
+[17.108s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__type_support.c
+[17.108s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_introspection_c.h
+[17.108s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.c
+[17.108s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__type_support.c
+[17.108s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[17.108s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[17.108s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__type_support.c
+[17.108s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[17.108s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_introspection_c.h
+[17.108s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.c
+[17.109s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_introspection_c.h
+[17.109s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[17.109s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_introspection_c.h
+[17.109s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_introspection_c.h
+[17.109s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.c
+[17.109s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.c
+[17.109s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__rosidl_typesupport_introspection_c.h
+[17.109s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__type_support.c
+[17.110s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__type_support.c
+[17.110s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__type_support.c
+[17.110s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.c
+[17.110s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__type_support.c
+[17.110s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_introspection_c.h
+[17.110s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_introspection_c.h
+[17.110s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__rosidl_typesupport_introspection_c.h
+[17.110s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.c
+[17.110s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__rosidl_typesupport_introspection_c.h
+[17.111s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.c
+[17.111s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so
+[17.112s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_c.so" to ""
+[17.112s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so
+[17.112s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_c.so" to ""
+[17.112s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs
+[17.112s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action
+[17.112s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail
+[17.113s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__rosidl_typesupport_introspection_cpp.hpp
+[17.113s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__type_support.cpp
+[17.113s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__rosidl_typesupport_introspection_cpp.hpp
+[17.113s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[17.113s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__rosidl_typesupport_introspection_cpp.hpp
+[17.113s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/spin__type_support.cpp
+[17.113s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__rosidl_typesupport_introspection_cpp.hpp
+[17.113s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__rosidl_typesupport_introspection_cpp.hpp
+[17.113s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__rosidl_typesupport_introspection_cpp.hpp
+[17.114s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__rosidl_typesupport_introspection_cpp.hpp
+[17.114s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__rosidl_typesupport_introspection_cpp.hpp
+[17.114s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_introspection_cpp.hpp
+[17.114s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/undock_robot__type_support.cpp
+[17.114s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__type_support.cpp
+[17.114s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[17.114s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__rosidl_typesupport_introspection_cpp.hpp
+[17.114s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_to_pose__type_support.cpp
+[17.115s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_path__type_support.cpp
+[17.115s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/drive_on_heading__type_support.cpp
+[17.115s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__rosidl_typesupport_introspection_cpp.hpp
+[17.115s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__rosidl_typesupport_introspection_cpp.hpp
+[17.115s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.cpp
+[17.115s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__type_support.cpp
+[17.115s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dock_robot__type_support.cpp
+[17.116s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/back_up__type_support.cpp
+[17.116s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/wait__rosidl_typesupport_introspection_cpp.hpp
+[17.116s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/navigate_through_poses__type_support.cpp
+[17.116s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/assisted_teleop__type_support.cpp
+[17.116s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_waypoints__rosidl_typesupport_introspection_cpp.hpp
+[17.116s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/follow_gps_waypoints__type_support.cpp
+[17.117s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/dummy_behavior__type_support.cpp
+[17.117s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/action/detail/compute_path_to_pose__type_support.cpp
+[17.117s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg
+[17.117s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail
+[17.117s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[17.117s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/missed_waypoint__type_support.cpp
+[17.117s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__rosidl_typesupport_introspection_cpp.hpp
+[17.117s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__rosidl_typesupport_introspection_cpp.hpp
+[17.117s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[17.118s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__type_support.cpp
+[17.118s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__rosidl_typesupport_introspection_cpp.hpp
+[17.118s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__type_support.cpp
+[17.118s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_log__type_support.cpp
+[17.118s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__rosidl_typesupport_introspection_cpp.hpp
+[17.118s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__type_support.cpp
+[17.118s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/speed_limit__type_support.cpp
+[17.118s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__rosidl_typesupport_introspection_cpp.hpp
+[17.118s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__type_support.cpp
+[17.119s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__rosidl_typesupport_introspection_cpp.hpp
+[17.119s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__rosidl_typesupport_introspection_cpp.hpp
+[17.119s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_monitor_state__rosidl_typesupport_introspection_cpp.hpp
+[17.119s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__type_support.cpp
+[17.119s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle__type_support.cpp
+[17.119s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/behavior_tree_status_change__rosidl_typesupport_introspection_cpp.hpp
+[17.119s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/voxel_grid__type_support.cpp
+[17.119s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_filter_info__rosidl_typesupport_introspection_cpp.hpp
+[17.119s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap__type_support.cpp
+[17.120s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/costmap_update__type_support.cpp
+[17.120s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/particle_cloud__rosidl_typesupport_introspection_cpp.hpp
+[17.120s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/msg/detail/collision_detector_state__type_support.cpp
+[17.120s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv
+[17.120s] -- Up-to-date: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail
+[17.120s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__rosidl_typesupport_introspection_cpp.hpp
+[17.120s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_entire_costmap__type_support.cpp
+[17.120s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__rosidl_typesupport_introspection_cpp.hpp
+[17.120s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[17.120s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__rosidl_typesupport_introspection_cpp.hpp
+[17.121s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__rosidl_typesupport_introspection_cpp.hpp
+[17.121s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__type_support.cpp
+[17.121s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__rosidl_typesupport_introspection_cpp.hpp
+[17.121s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__rosidl_typesupport_introspection_cpp.hpp
+[17.121s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__rosidl_typesupport_introspection_cpp.hpp
+[17.121s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__type_support.cpp
+[17.121s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/manage_lifecycle_nodes__type_support.cpp
+[17.121s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_around_robot__type_support.cpp
+[17.122s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__rosidl_typesupport_introspection_cpp.hpp
+[17.122s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/save_map__type_support.cpp
+[17.122s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/get_costs__type_support.cpp
+[17.122s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__type_support.cpp
+[17.122s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/set_initial_pose__rosidl_typesupport_introspection_cpp.hpp
+[17.122s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.cpp
+[17.122s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/reload_dock_database__type_support.cpp
+[17.122s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[17.122s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/include/nav2_msgs/nav2_msgs/srv/detail/is_path_valid__type_support.cpp
+[17.123s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
+[17.124s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[17.124s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+[17.124s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_typesupport_cpp.so" to ""
+[17.124s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/environment/pythonpath.sh
+[17.125s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/environment/pythonpath.dsv
+[17.125s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.3.1-py3.10.egg-info
+[17.125s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.3.1-py3.10.egg-info/SOURCES.txt
+[17.125s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.3.1-py3.10.egg-info/PKG-INFO
+[17.125s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.3.1-py3.10.egg-info/dependency_links.txt
+[17.125s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs-1.3.1-py3.10.egg-info/top_level.txt
+[17.125s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs
+[17.125s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/__init__.py
+[17.125s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[17.127s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.127s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action
+[17.127s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_path_s.c
+[17.127s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_to_pose.py
+[17.127s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_to_pose_s.c
+[17.128s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_back_up_s.c
+[17.128s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_through_poses_s.c
+[17.128s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_to_pose_s.c
+[17.128s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_smooth_path_s.c
+[17.128s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_spin.py
+[17.128s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_drive_on_heading.py
+[17.128s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_gps_waypoints.py
+[17.129s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dock_robot_s.c
+[17.129s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_smooth_path.py
+[17.129s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_gps_waypoints_s.c
+[17.129s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_wait_s.c
+[17.129s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_back_up.py
+[17.130s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/__init__.py
+[17.130s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_drive_on_heading_s.c
+[17.130s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dummy_behavior_s.c
+[17.130s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_through_poses_s.c
+[17.130s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_spin_s.c
+[17.130s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_through_poses.py
+[17.130s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_path.py
+[17.131s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dummy_behavior.py
+[17.131s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_wait.py
+[17.131s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_to_pose.py
+[17.131s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_assisted_teleop_s.c
+[17.131s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_undock_robot_s.c
+[17.131s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_waypoints_s.c
+[17.131s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_waypoints.py
+[17.132s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_assisted_teleop.py
+[17.132s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_through_poses.py
+[17.132s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dock_robot.py
+[17.132s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_undock_robot.py
+[17.132s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[17.133s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg
+[17.133s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_missed_waypoint_s.c
+[17.133s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_missed_waypoint.py
+[17.134s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_meta_data_s.c
+[17.134s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_s.c
+[17.134s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_status_change.py
+[17.134s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_filter_info.py
+[17.134s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_log.py
+[17.134s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_cloud_s.c
+[17.134s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_update.py
+[17.134s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/__init__.py
+[17.134s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_cloud.py
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap.py
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_voxel_grid_s.c
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_collision_detector_state.py
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_filter_info_s.c
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle.py
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_collision_detector_state_s.c
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_collision_monitor_state.py
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_status_change_s.c
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_collision_monitor_state_s.c
+[17.135s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_voxel_grid.py
+[17.136s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_meta_data.py
+[17.136s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_update_s.c
+[17.136s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_speed_limit_s.c
+[17.136s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_speed_limit.py
+[17.136s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_s.c
+[17.136s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_log_s.c
+[17.136s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.137s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/libnav2_msgs__rosidl_generator_py.so
+[17.137s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv
+[17.137s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_load_map_s.c
+[17.137s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costmap_s.c
+[17.138s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_reload_dock_database.py
+[17.138s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_save_map_s.c
+[17.138s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_reload_dock_database_s.c
+[17.138s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_manage_lifecycle_nodes.py
+[17.138s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costmap.py
+[17.138s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/__init__.py
+[17.138s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_save_map.py
+[17.138s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costs.py
+[17.138s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_around_robot_s.c
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_except_region.py
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_around_robot.py
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_is_path_valid_s.c
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_set_initial_pose.py
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_entire_costmap_s.c
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costs_s.c
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_set_initial_pose_s.c
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_load_map.py
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_entire_costmap.py
+[17.139s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_except_region_s.c
+[17.140s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_is_path_valid.py
+[17.140s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_manage_lifecycle_nodes_s.c
+[17.140s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/_nav2_msgs_s.ep.rosidl_typesupport_c.c
+[17.141s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.231s] Listing '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs'...
+[17.231s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/__init__.py'...
+[17.232s] Listing '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/__init__.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_assisted_teleop.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_back_up.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_through_poses.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_compute_path_to_pose.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dock_robot.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_drive_on_heading.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_dummy_behavior.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_gps_waypoints.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_path.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_follow_waypoints.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_through_poses.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_navigate_to_pose.py'...
+[17.232s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_smooth_path.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_spin.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_undock_robot.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/action/_wait.py'...
+[17.233s] Listing '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/__init__.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_log.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_behavior_tree_status_change.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_collision_detector_state.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_collision_monitor_state.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_filter_info.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_meta_data.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_costmap_update.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_missed_waypoint.py'...
+[17.233s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_particle_cloud.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_speed_limit.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/msg/_voxel_grid.py'...
+[17.234s] Listing '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/__init__.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_around_robot.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_costmap_except_region.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_clear_entire_costmap.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costmap.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_get_costs.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_is_path_valid.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_load_map.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_manage_lifecycle_nodes.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_reload_dock_database.py'...
+[17.234s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_save_map.py'...
+[17.235s] Compiling '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/srv/_set_initial_pose.py'...
+[17.235s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.236s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.237s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.239s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.239s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.240s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages/nav2_msgs/nav2_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[17.240s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so
+[17.240s] -- Set runtime path of "/home/autodrive_devkit/install/nav2_msgs/lib/libnav2_msgs__rosidl_generator_py.so" to ""
+[17.240s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CollisionMonitorState.idl
+[17.241s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CollisionDetectorState.idl
+[17.241s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/Costmap.idl
+[17.241s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CostmapMetaData.idl
+[17.241s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CostmapUpdate.idl
+[17.241s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CostmapFilterInfo.idl
+[17.241s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/SpeedLimit.idl
+[17.241s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/VoxelGrid.idl
+[17.242s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeStatusChange.idl
+[17.242s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeLog.idl
+[17.242s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/Particle.idl
+[17.242s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/ParticleCloud.idl
+[17.242s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/MissedWaypoint.idl
+[17.242s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/GetCosts.idl
+[17.242s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap.idl
+[17.243s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid.idl
+[17.243s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion.idl
+[17.243s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot.idl
+[17.243s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap.idl
+[17.243s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes.idl
+[17.243s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/LoadMap.idl
+[17.243s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/SaveMap.idl
+[17.244s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/SetInitialPose.idl
+[17.244s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ReloadDockDatabase.idl
+[17.244s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/AssistedTeleop.idl
+[17.244s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/BackUp.idl
+[17.244s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/ComputePathToPose.idl
+[17.244s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/ComputePathThroughPoses.idl
+[17.245s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/DriveOnHeading.idl
+[17.245s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/SmoothPath.idl
+[17.245s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/FollowPath.idl
+[17.245s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/NavigateToPose.idl
+[17.245s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/NavigateThroughPoses.idl
+[17.245s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/Wait.idl
+[17.245s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/Spin.idl
+[17.246s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/DummyBehavior.idl
+[17.246s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/FollowWaypoints.idl
+[17.246s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/FollowGPSWaypoints.idl
+[17.246s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/DockRobot.idl
+[17.246s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/UndockRobot.idl
+[17.246s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CollisionMonitorState.msg
+[17.246s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CollisionDetectorState.msg
+[17.247s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/Costmap.msg
+[17.247s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CostmapMetaData.msg
+[17.247s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CostmapUpdate.msg
+[17.247s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/CostmapFilterInfo.msg
+[17.247s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/SpeedLimit.msg
+[17.247s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/VoxelGrid.msg
+[17.247s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeStatusChange.msg
+[17.248s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/BehaviorTreeLog.msg
+[17.248s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/Particle.msg
+[17.248s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/ParticleCloud.msg
+[17.248s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/msg/MissedWaypoint.msg
+[17.248s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/GetCosts.srv
+[17.248s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/GetCosts_Request.msg
+[17.249s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/GetCosts_Response.msg
+[17.249s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap.srv
+[17.249s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap_Request.msg
+[17.249s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/GetCostmap_Response.msg
+[17.249s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid.srv
+[17.249s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid_Request.msg
+[17.249s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/IsPathValid_Response.msg
+[17.250s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion.srv
+[17.250s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion_Request.msg
+[17.250s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapExceptRegion_Response.msg
+[17.250s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot.srv
+[17.250s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot_Request.msg
+[17.250s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearCostmapAroundRobot_Response.msg
+[17.250s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap.srv
+[17.251s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap_Request.msg
+[17.251s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ClearEntireCostmap_Response.msg
+[17.251s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes.srv
+[17.251s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes_Request.msg
+[17.251s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ManageLifecycleNodes_Response.msg
+[17.251s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/LoadMap.srv
+[17.251s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/LoadMap_Request.msg
+[17.252s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/LoadMap_Response.msg
+[17.252s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/SaveMap.srv
+[17.252s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/SaveMap_Request.msg
+[17.252s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/SaveMap_Response.msg
+[17.252s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/SetInitialPose.srv
+[17.252s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/SetInitialPose_Request.msg
+[17.253s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/SetInitialPose_Response.msg
+[17.253s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ReloadDockDatabase.srv
+[17.253s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ReloadDockDatabase_Request.msg
+[17.253s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/srv/ReloadDockDatabase_Response.msg
+[17.253s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/AssistedTeleop.action
+[17.254s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/BackUp.action
+[17.255s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/ComputePathToPose.action
+[17.255s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/ComputePathThroughPoses.action
+[17.255s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/DriveOnHeading.action
+[17.255s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/SmoothPath.action
+[17.256s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/FollowPath.action
+[17.256s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/NavigateToPose.action
+[17.256s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/NavigateThroughPoses.action
+[17.256s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/Wait.action
+[17.256s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/Spin.action
+[17.256s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/DummyBehavior.action
+[17.256s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/FollowWaypoints.action
+[17.257s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/FollowGPSWaypoints.action
+[17.257s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/DockRobot.action
+[17.257s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/action/UndockRobot.action
+[17.257s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/ament_index/resource_index/package_run_dependencies/nav2_msgs
+[17.257s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/ament_index/resource_index/parent_prefix_path/nav2_msgs
+[17.257s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/environment/ament_prefix_path.sh
+[17.258s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/environment/ament_prefix_path.dsv
+[17.258s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/environment/path.sh
+[17.258s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/environment/path.dsv
+[17.258s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/local_setup.bash
+[17.258s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/local_setup.sh
+[17.258s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/local_setup.zsh
+[17.258s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/local_setup.dsv
+[17.259s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/package.dsv
+[17.259s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/ament_index/resource_index/packages/nav2_msgs
+[17.259s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_cExport.cmake
+[17.259s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_cExport-release.cmake
+[17.259s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[17.259s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[17.260s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_cppExport.cmake
+[17.260s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[17.260s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[17.260s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cExport.cmake
+[17.260s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[17.261s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cExport.cmake
+[17.261s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cExport-release.cmake
+[17.261s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[17.261s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[17.261s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cppExport.cmake
+[17.261s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgs__rosidl_typesupport_cppExport-release.cmake
+[17.262s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_pyExport.cmake
+[17.262s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/export_nav2_msgs__rosidl_generator_pyExport-release.cmake
+[17.262s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/rosidl_cmake-extras.cmake
+[17.262s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[17.262s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[17.262s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[17.262s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[17.263s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[17.263s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[17.263s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgsConfig.cmake
+[17.263s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake/nav2_msgsConfig-version.cmake
+[17.263s] -- Installing: /home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/package.xml
+[17.266s] Invoked command in '/home/autodrive_devkit/build/nav2_msgs' returned '0': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/autodrive_devkit/build/nav2_msgs

@@ -1,0 +1,37 @@
+[0.012s] Invoking command in '/home/autodrive_devkit/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/autodrive_devkit/build/nav2_voxel_grid -- -j16 -l16
+[0.051s] [ 40%] Built target gtest_main
+[0.051s] [ 40%] Built target gtest
+[0.051s] [ 60%] Built target voxel_grid
+[0.069s] [ 80%] Built target voxel_grid_tests
+[0.069s] [100%] Built target voxel_grid_bresenham_3d
+[0.080s] Invoked command in '/home/autodrive_devkit/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/autodrive_devkit/build/nav2_voxel_grid -- -j16 -l16
+[0.102s] Invoking command in '/home/autodrive_devkit/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/autodrive_devkit/build/nav2_voxel_grid
+[0.108s] -- Install configuration: "Release"
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/include/nav2_voxel_grid
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/include/nav2_voxel_grid/nav2_voxel_grid
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/include/nav2_voxel_grid/nav2_voxel_grid/voxel_grid.hpp
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[0.109s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[0.110s] -- Installing: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/voxel_gridExport.cmake
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/voxel_gridExport-release.cmake
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_targets-extras.cmake
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[0.110s] -- Up-to-date: /home/autodrive_devkit/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[0.112s] Invoked command in '/home/autodrive_devkit/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/autodrive_devkit/build/nav2_voxel_grid

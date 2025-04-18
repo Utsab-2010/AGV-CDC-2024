@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/autodrive_devkit/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/autodrive_devkit/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/nav2_voxel_grid
+[0.048s] -- The C compiler identification is GNU 11.4.0
+[0.090s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.153s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.158s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.236s] -- Detecting CXX compiler ABI info - done
+[0.244s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.244s] -- Detecting CXX compile features
+[0.244s] -- Detecting CXX compile features - done
+[0.247s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.366s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.438s] -- Found nav2_common: 1.3.1 (/home/autodrive_devkit/install/nav2_common/share/nav2_common/cmake)
+[0.440s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.478s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.482s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.489s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.498s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.510s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.555s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.559s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.648s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.675s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.726s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.735s] -- Looking for pthread.h
+[0.809s] -- Looking for pthread.h - found
+[0.809s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.877s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.879s] -- Found Threads: TRUE  
+[0.919s] -- Setting build type to Release as none was specified.
+[0.921s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.998s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.007s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.007s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/autodrive_devkit/src/navigation2/nav2_voxel_grid/include>
+[1.007s] -- Configured cppcheck exclude dirs and/or files: 
+[1.008s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.008s] -- Configured cpplint exclude dirs and/or files: 
+[1.009s] -- Added test 'lint_cmake' to check CMake code style
+[1.010s] -- Added test 'uncrustify' to check C / C++ code style
+[1.010s] -- Configured uncrustify additional arguments: 
+[1.011s] -- Added test 'xmllint' to check XML markup files
+[1.014s] -- Configuring done
+[1.032s] -- Generating done
+[1.034s] -- Build files have been written to: /home/autodrive_devkit/build/nav2_voxel_grid

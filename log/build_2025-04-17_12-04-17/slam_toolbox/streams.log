@@ -1,0 +1,630 @@
+[0.305s] Invoking command in '/home/autodrive_devkit/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/slam_toolbox
+[0.360s] -- The C compiler identification is GNU 11.4.0
+[0.413s] -- The CXX compiler identification is GNU 11.4.0
+[0.422s] -- Detecting C compiler ABI info
+[0.509s] -- Detecting C compiler ABI info - done
+[0.515s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.515s] -- Detecting C compile features
+[0.515s] -- Detecting C compile features - done
+[0.517s] -- Detecting CXX compiler ABI info
+[0.602s] -- Detecting CXX compiler ABI info - done
+[0.610s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.610s] -- Detecting CXX compile features
+[0.610s] -- Detecting CXX compile features - done
+[0.613s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.753s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.804s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.845s] -- Found message_filters: 4.3.5 (/opt/ros/humble/share/message_filters/cmake)
+[0.886s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.890s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.898s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.908s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.921s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.957s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.960s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.064s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.093s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.138s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.150s] -- Looking for pthread.h
+[1.228s] -- Looking for pthread.h - found
+[1.229s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.318s] -- Found Threads: TRUE  
+[1.359s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.380s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.392s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.403s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.467s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.480s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[1.499s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.514s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.514s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.514s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.517s] -- Found tf2_sensor_msgs: 0.25.7 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[1.523s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.530s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.538s] -- Found rviz_common: 11.2.13 (/opt/ros/humble/share/rviz_common/cmake)
+[1.551s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.559s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.560s] -- Found OGRE
+[1.560s] --   static     : OFF
+[1.560s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.561s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.561s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.561s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.561s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.561s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.561s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.561s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.561s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.561s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.561s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.561s] -- Could not find freeimage library
+[1.573s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.576s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.664s] -- Found X11: /usr/include   
+[1.665s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.747s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.747s] -- Looking for gethostbyname
+[1.834s] -- Looking for gethostbyname - found
+[1.834s] -- Looking for connect
+[1.924s] -- Looking for connect - found
+[1.924s] -- Looking for remove
+[2.014s] -- Looking for remove - found
+[2.014s] -- Looking for shmat
+[2.103s] -- Looking for shmat - found
+[2.103s] -- Looking for IceConnectionNumber in ICE
+[2.189s] -- Looking for IceConnectionNumber in ICE - found
+[2.299s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.321s] -- Found rviz_default_plugins: 11.2.13 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[2.385s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system serialization filesystem thread 
+[2.395s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.400s] -- Found CHOLMOD: /usr/include/suitesparse  
+[2.401s] -- Found CSparse: /usr/include/suitesparse  
+[2.418s] -- Looking for sgemm_
+[2.503s] -- Looking for sgemm_ - not found
+[2.531s] -- Looking for sgemm_
+[2.617s] -- Looking for sgemm_ - found
+[2.618s] -- Found BLAS: /usr/lib/x86_64-linux-gnu/libblas.so  
+[2.623s] -- Looking for cheev_
+[2.710s] -- Looking for cheev_ - not found
+[2.721s] -- Looking for cheev_
+[2.794s] -- Looking for cheev_ - not found
+[2.795s] -- Looking for cheev_
+[2.889s] -- Looking for cheev_ - found
+[2.889s] -- Found LAPACK: /usr/lib/x86_64-linux-gnu/liblapack.so;/usr/lib/x86_64-linux-gnu/libblas.so  
+[2.897s] -- Found required Ceres dependency: Eigen version 3.4.0 in /usr/include/eigen3
+[2.903s] -- Found required Ceres dependency: glog
+[2.903s] -- Found required Ceres dependency: gflags
+[2.903s] -- Found Ceres version: 2.0.0 installed in: /usr with components: [EigenSparse, SparseLinearAlgebraLibrary, LAPACK, SuiteSparse, CXSparse, SchurSpecializations, Multithreading]
+[3.194s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.608s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.783s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.785s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.808s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.808s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.808s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.808s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.824s] -- Found PythonExtra: .so  
+[3.931s] -- Configuring done
+[4.120s] -- Generating done
+[4.124s] -- Build files have been written to: /home/autodrive_devkit/build/slam_toolbox
+[4.139s] Invoked command in '/home/autodrive_devkit/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/slam_toolbox
+[4.141s] Invoking command in '/home/autodrive_devkit/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/build/slam_toolbox -- -j16 -l16
+[4.201s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.207s] [  1%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Karto.cpp.o[0m
+[4.211s] [  2%] [32mBuilding CXX object lib/karto_sdk/CMakeFiles/kartoSlamToolbox.dir/src/Mapper.cpp.o[0m
+[4.213s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.219s] [  3%] Built target ament_cmake_python_symlink_slam_toolbox
+[4.380s] running egg_info
+[4.380s] creating slam_toolbox.egg-info
+[4.380s] writing slam_toolbox.egg-info/PKG-INFO
+[4.380s] writing dependency_links to slam_toolbox.egg-info/dependency_links.txt
+[4.381s] writing top-level names to slam_toolbox.egg-info/top_level.txt
+[4.381s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[4.382s] reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[4.382s] writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'
+[4.405s] [  3%] Built target ament_cmake_python_build_slam_toolbox_egg
+[4.809s] [  3%] Built target slam_toolbox__cpp
+[4.820s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.820s] [  4%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.825s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.878s] [  7%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear_queue__functions.c.o[0m
+[4.878s] [  7%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/pause__functions.c.o[0m
+[4.878s] [  7%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/clear__functions.c.o[0m
+[4.878s] [  8%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/merge_maps__functions.c.o[0m
+[4.879s] [  9%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/add_submap__functions.c.o[0m
+[4.879s] [  9%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/loop_closure__functions.c.o[0m
+[4.879s] [  9%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c.o[0m
+[4.880s] [ 10%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/toggle_interactive__functions.c.o[0m
+[4.881s] [ 11%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/save_map__functions.c.o[0m
+[4.882s] [ 12%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_c.dir/rosidl_generator_c/slam_toolbox/srv/detail/serialize_pose_graph__functions.c.o[0m
+[5.023s] [ 13%] [32m[1mLinking C shared library libslam_toolbox__rosidl_generator_c.so[0m
+[5.065s] [ 13%] Built target slam_toolbox__rosidl_generator_c
+[5.075s] [ 14%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.075s] [ 14%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.081s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.289s] [ 18%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear__type_support.cpp.o[0m
+[5.289s] [ 18%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/clear_queue__type_support.cpp.o[0m
+[5.289s] [ 18%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/pause__type_support.cpp.o[0m
+[5.289s] [ 18%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/toggle_interactive__type_support.cpp.o[0m
+[5.289s] [ 19%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/save_map__type_support.cpp.o[0m
+[5.289s] [ 20%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/add_submap__type_support.cpp.o[0m
+[5.289s] [ 21%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/merge_maps__type_support.cpp.o[0m
+[5.289s] [ 21%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/loop_closure__type_support.cpp.o[0m
+[5.290s] [ 22%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o[0m
+[5.615s] [ 23%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o[0m
+[5.638s] [ 24%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/pause__type_support.cpp.o[0m
+[5.638s] [ 25%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/save_map__type_support.cpp.o[0m
+[5.638s] [ 26%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear__type_support.cpp.o[0m
+[5.638s] [ 26%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/clear_queue__type_support.cpp.o[0m
+[5.639s] [ 26%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp.o[0m
+[5.639s] [ 27%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/merge_maps__type_support.cpp.o[0m
+[5.639s] [ 27%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/add_submap__type_support.cpp.o[0m
+[5.640s] [ 28%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/loop_closure__type_support.cpp.o[0m
+[5.640s] [ 29%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp.o[0m
+[5.640s] [ 30%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/pause__type_support.cpp.o[0m
+[5.653s] [ 31%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/pause__type_support.cpp.o[0m
+[5.681s] [ 32%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear_queue__type_support.cpp.o[0m
+[5.720s] [ 33%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/toggle_interactive__type_support.cpp.o[0m
+[5.781s] [ 33%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/clear__type_support.cpp.o[0m
+[5.825s] [ 34%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/save_map__type_support.cpp.o[0m
+[5.870s] [ 35%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/loop_closure__type_support.cpp.o[0m
+[5.914s] [ 35%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/merge_maps__type_support.cpp.o[0m
+[5.953s] [ 35%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_cpp.so[0m
+[5.967s] [ 36%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/add_submap__type_support.cpp.o[0m
+[5.977s] [ 36%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/pause__type_support.c.o[0m
+[6.010s] [ 37%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/deserialize_pose_graph__type_support.cpp.o[0m
+[6.013s] [ 37%] Built target slam_toolbox__rosidl_typesupport_cpp
+[6.024s] [ 37%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear_queue__type_support.cpp.o[0m
+[6.038s] [ 38%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear_queue__type_support.c.o[0m
+[6.058s] [ 39%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_c.dir/rosidl_typesupport_c/slam_toolbox/srv/serialize_pose_graph__type_support.cpp.o[0m
+[6.068s] [ 40%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/pause__type_support_c.cpp.o[0m
+[6.078s] [ 41%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/toggle_interactive__type_support.c.o[0m
+[6.096s] [ 41%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/clear__type_support.c.o[0m
+[6.098s] [ 42%] [34m[1mGenerating rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp[0m
+[6.098s] [ 42%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp.o[0m
+[6.098s] [ 43%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/save_map__type_support.c.o[0m
+[6.100s] [ 44%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/loop_closure__type_support.c.o[0m
+[6.106s] [ 46%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/toggle_interactive__type_support.cpp.o[0m
+[6.106s] [ 46%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/merge_maps__type_support.c.o[0m
+[6.113s] [ 47%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/clear__type_support.cpp.o[0m
+[6.114s] [ 47%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_c.so[0m
+[6.117s] [ 47%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/add_submap__type_support.c.o[0m
+[6.125s] [ 48%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/slam_toolbox_rviz_plugin.cpp.o[0m
+[6.138s] [ 49%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[6.139s] [ 50%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c.o[0m
+[6.151s] [ 51%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c.o[0m
+[6.154s] [ 51%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/loop_closure__type_support.cpp.o[0m
+[6.156s] [ 52%] [32mBuilding CXX object CMakeFiles/SlamToolboxPlugin.dir/rviz_plugin/moc_slam_toolbox_rviz_plugin.cpp.o[0m
+[6.165s] [ 52%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear_queue__type_support_c.cpp.o[0m
+[6.174s] [ 52%] Built target slam_toolbox__rosidl_typesupport_c
+[6.174s] [ 53%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/toggle_interactive__type_support_c.cpp.o[0m
+[6.184s] [ 54%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/clear__type_support_c.cpp.o[0m
+[6.197s] [ 55%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/save_map__type_support_c.cpp.o[0m
+[6.219s] [ 55%] [32m[1mLinking C shared library libslam_toolbox__rosidl_typesupport_introspection_c.so[0m
+[6.277s] [ 55%] Built target slam_toolbox__rosidl_typesupport_introspection_c
+[6.288s] [ 55%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/loop_closure__type_support_c.cpp.o[0m
+[6.489s] [ 56%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/merge_maps__type_support_c.cpp.o[0m
+[6.501s] [ 57%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/merge_maps__type_support.cpp.o[0m
+[6.585s] [ 57%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_introspection_cpp.so[0m
+[6.597s] [ 58%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/add_submap__type_support_c.cpp.o[0m
+[6.608s] [ 58%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/deserialize_pose_graph__type_support_c.cpp.o[0m
+[6.612s] [ 59%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/slam_toolbox/srv/detail/serialize_pose_graph__type_support_c.cpp.o[0m
+[6.618s] [ 60%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/add_submap__type_support.cpp.o[0m
+[6.624s] [ 60%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/deserialize_pose_graph__type_support.cpp.o[0m
+[6.626s] [ 61%] [32mBuilding CXX object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/slam_toolbox/srv/detail/dds_fastrtps/serialize_pose_graph__type_support.cpp.o[0m
+[6.677s] [ 61%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp
+[7.059s] [ 62%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_c.so[0m
+[7.137s] [ 62%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c
+[7.137s] [ 63%] [32m[1mLinking CXX shared library libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.212s] [ 63%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp
+[7.240s] [ 63%] Built target slam_toolbox
+[7.273s] [ 63%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.377s] [ 63%] Built target slam_toolbox__py
+[8.402s] [ 64%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_toggle_interactive_s.c.o[0m
+[8.404s] [ 67%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_merge_maps_s.c.o[0m
+[8.404s] [ 67%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_loop_closure_s.c.o[0m
+[8.404s] [ 67%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_add_submap_s.c.o[0m
+[8.404s] [ 68%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_deserialize_pose_graph_s.c.o[0m
+[8.405s] [ 68%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_pause_s.c.o[0m
+[8.406s] [ 69%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_save_map_s.c.o[0m
+[8.406s] [ 69%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_clear_queue_s.c.o[0m
+[8.406s] [ 69%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_clear_s.c.o[0m
+[8.407s] [ 70%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_generator_py.dir/rosidl_generator_py/slam_toolbox/srv/_serialize_pose_graph_s.c.o[0m
+[8.570s] [ 71%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/libslam_toolbox__rosidl_generator_py.so[0m
+[8.611s] [ 71%] Built target slam_toolbox__rosidl_generator_py
+[8.630s] [ 73%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.630s] [ 73%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c.o[0m
+[8.632s] [ 74%] [32mBuilding C object CMakeFiles/slam_toolbox__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.896s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.898s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.911s] [ 76%] [32m[1mLinking C shared library rosidl_generator_py/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.936s] [ 76%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext
+[8.936s] [ 76%] Built target slam_toolbox__rosidl_typesupport_c__pyext
+[8.954s] [ 76%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext
+[18.940s] [ 77%] [32m[1mLinking CXX shared library libkartoSlamToolbox.so[0m
+[19.192s] [ 77%] Built target kartoSlamToolbox
+[19.215s] [ 78%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_mapper.cpp.o[0m
+[19.216s] [ 79%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/laser_utils.cpp.o[0m
+[19.219s] [ 80%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/map_saver.cpp.o[0m
+[19.220s] [ 80%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/loop_closure_assistant.cpp.o[0m
+[19.220s] [ 81%] [32mBuilding CXX object CMakeFiles/toolbox_common.dir/src/slam_toolbox_common.cpp.o[0m
+[19.221s] [ 82%] [32mBuilding CXX object CMakeFiles/ceres_solver_plugin.dir/solvers/ceres_solver.cpp.o[0m
+[21.760s] [ 82%] [32m[1mLinking CXX shared library libSlamToolboxPlugin.so[0m
+[22.878s] [ 82%] Built target SlamToolboxPlugin
+[31.332s] [ 83%] [32m[1mLinking CXX shared library libceres_solver_plugin.so[0m
+[31.636s] [ 83%] Built target ceres_solver_plugin
+[43.202s] [ 84%] [32m[1mLinking CXX shared library libtoolbox_common.so[0m
+[43.643s] [ 84%] Built target toolbox_common
+[43.665s] [ 85%] [32mBuilding CXX object CMakeFiles/localization_slam_toolbox.dir/src/slam_toolbox_localization.cpp.o[0m
+[43.666s] [ 85%] [32mBuilding CXX object CMakeFiles/merge_maps_kinematic.dir/src/merge_maps_kinematic.cpp.o[0m
+[43.666s] [ 87%] [32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox.dir/src/experimental/slam_toolbox_lifelong.cpp.o[0m
+[43.666s] [ 87%] [32mBuilding CXX object CMakeFiles/sync_slam_toolbox.dir/src/slam_toolbox_sync.cpp.o[0m
+[43.667s] [ 88%] [32mBuilding CXX object CMakeFiles/async_slam_toolbox.dir/src/slam_toolbox_async.cpp.o[0m
+[53.669s] [ 89%] [32m[1mLinking CXX shared library libasync_slam_toolbox.so[0m
+[53.992s] [ 89%] [32m[1mLinking CXX shared library liblifelong_slam_toolbox.so[0m
+[54.063s] [ 89%] Built target async_slam_toolbox
+[54.091s] [ 90%] [32mBuilding CXX object CMakeFiles/async_slam_toolbox_node.dir/src/slam_toolbox_async_node.cpp.o[0m
+[54.536s] [ 90%] Built target lifelong_slam_toolbox
+[54.561s] [ 91%] [32mBuilding CXX object CMakeFiles/lifelong_slam_toolbox_node.dir/src/experimental/slam_toolbox_lifelong_node.cpp.o[0m
+[54.728s] [ 92%] [32m[1mLinking CXX shared library libsync_slam_toolbox.so[0m
+[55.121s] [ 92%] Built target sync_slam_toolbox
+[55.146s] [ 93%] [32mBuilding CXX object CMakeFiles/sync_slam_toolbox_node.dir/src/slam_toolbox_sync_node.cpp.o[0m
+[57.100s] [ 94%] [32m[1mLinking CXX executable merge_maps_kinematic[0m
+[57.522s] [ 94%] Built target merge_maps_kinematic
+[59.653s] [ 95%] [32m[1mLinking CXX shared library liblocalization_slam_toolbox.so[0m
+[60.063s] [ 95%] Built target localization_slam_toolbox
+[60.091s] [ 96%] [32mBuilding CXX object CMakeFiles/map_and_localization_slam_toolbox.dir/src/experimental/slam_toolbox_map_and_localization.cpp.o[0m
+[60.091s] [ 96%] [32mBuilding CXX object CMakeFiles/localization_slam_toolbox_node.dir/src/slam_toolbox_localization_node.cpp.o[0m
+[64.507s] [ 96%] [32m[1mLinking CXX executable async_slam_toolbox_node[0m
+[64.814s] [ 96%] Built target async_slam_toolbox_node
+[65.012s] [ 97%] [32m[1mLinking CXX executable lifelong_slam_toolbox_node[0m
+[65.317s] [ 97%] Built target lifelong_slam_toolbox_node
+[65.623s] [ 97%] [32m[1mLinking CXX executable sync_slam_toolbox_node[0m
+[65.932s] [ 97%] Built target sync_slam_toolbox_node
+[70.075s] [ 98%] [32m[1mLinking CXX executable localization_slam_toolbox_node[0m
+[70.378s] [ 98%] Built target localization_slam_toolbox_node
+[76.045s] [ 99%] [32m[1mLinking CXX shared library libmap_and_localization_slam_toolbox.so[0m
+[76.450s] [ 99%] Built target map_and_localization_slam_toolbox
+[76.478s] [100%] [32mBuilding CXX object CMakeFiles/map_and_localization_slam_toolbox_node.dir/src/experimental/slam_toolbox_map_and_localization_node.cpp.o[0m
+[85.564s] [100%] [32m[1mLinking CXX executable map_and_localization_slam_toolbox_node[0m
+[85.823s] [100%] Built target map_and_localization_slam_toolbox_node
+[85.856s] Invoked command in '/home/autodrive_devkit/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/build/slam_toolbox -- -j16 -l16
+[86.424s] Invoking command in '/home/autodrive_devkit/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake --install /home/autodrive_devkit/build/slam_toolbox
+[86.428s] -- Install configuration: "Release"
+[86.429s] -- Execute custom install script
+[86.429s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Karto.h
+[86.439s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Macros.h
+[86.445s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Mapper.h
+[86.451s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Math.h
+[86.456s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Types.h
+[86.462s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/nanoflann.hpp
+[86.473s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h
+[86.483s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox
+[86.489s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h
+[86.499s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h
+[86.510s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h
+[86.520s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h
+[86.526s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h
+[86.537s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h
+[86.544s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h
+[86.550s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h
+[86.555s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h
+[86.567s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h
+[86.576s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h
+[86.589s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h
+[86.597s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h
+[86.609s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h
+[86.615s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h
+[86.625s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h
+[86.631s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h
+[86.637s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h
+[86.649s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h
+[86.657s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h
+[86.662s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h
+[86.673s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h
+[86.679s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h
+[86.690s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h
+[86.696s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h
+[86.708s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h
+[86.721s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h
+[86.729s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h
+[86.736s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h
+[86.742s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h
+[86.748s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h
+[86.755s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h
+[86.765s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h
+[86.772s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h
+[86.780s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h
+[86.793s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h
+[86.802s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h
+[86.812s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h
+[86.819s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h
+[86.829s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h
+[86.841s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h
+[86.853s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh
+[86.860s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv
+[86.867s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[86.880s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h
+[86.890s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h
+[86.901s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h
+[86.912s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[86.921s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h
+[86.927s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h
+[86.933s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h
+[86.942s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[86.948s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h
+[86.958s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h
+[86.966s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp
+[86.972s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp
+[86.984s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp
+[86.994s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp
+[87.000s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp
+[87.010s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp
+[87.018s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp
+[87.025s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp
+[87.031s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp
+[87.037s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp
+[87.049s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp
+[87.055s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp
+[87.065s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp
+[87.077s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp
+[87.083s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp
+[87.089s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp
+[87.098s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp
+[87.104s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp
+[87.110s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp
+[87.117s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp
+[87.123s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp
+[87.130s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp
+[87.135s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp
+[87.148s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp
+[87.157s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp
+[87.167s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp
+[87.178s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp
+[87.186s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp
+[87.197s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp
+[87.206s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp
+[87.212s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp
+[87.218s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp
+[87.223s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp
+[87.236s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp
+[87.245s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp
+[87.255s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp
+[87.261s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp
+[87.267s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp
+[87.278s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp
+[87.288s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp
+[87.302s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[87.310s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp
+[87.320s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp
+[87.326s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp
+[87.335s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[87.340s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp
+[87.346s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp
+[87.352s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp
+[87.364s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[87.376s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp
+[87.385s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp
+[87.397s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[87.404s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h
+[87.417s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h
+[87.429s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h
+[87.436s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h
+[87.442s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h
+[87.450s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h
+[87.465s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h
+[87.472s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[87.482s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h
+[87.489s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h
+[87.496s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp
+[87.507s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp
+[87.518s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp
+[87.524s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[87.537s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp
+[87.547s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp
+[87.559s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp
+[87.571s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[87.583s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp
+[87.591s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp
+[87.602s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh
+[87.608s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv
+[87.619s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/PKG-INFO
+[87.625s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/SOURCES.txt
+[87.635s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/dependency_links.txt
+[87.642s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/top_level.txt
+[87.651s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py
+[87.658s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c
+[87.665s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c
+[87.672s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c
+[87.684s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so
+[87.694s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[87.705s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[87.717s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[87.723s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py
+[87.735s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py
+[87.748s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c
+[87.757s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py
+[87.771s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py
+[87.783s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c
+[87.789s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c
+[87.799s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py
+[87.810s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c
+[87.817s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py
+[87.827s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c
+[87.838s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py
+[87.845s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c
+[87.857s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py
+[87.868s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c
+[87.875s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py
+[87.887s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c
+[87.893s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py
+[87.905s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c
+[87.916s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py
+[87.926s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c
+[87.938s] -- Up-to-date symlink: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[87.938s] -- Up-to-date symlink: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[87.939s] -- Up-to-date symlink: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[87.939s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl
+[87.946s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl
+[87.952s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl
+[87.964s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl
+[87.974s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl
+[87.981s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl
+[87.992s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl
+[88.002s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl
+[88.009s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl
+[88.018s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl
+[88.024s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv
+[88.031s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg
+[88.039s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg
+[88.046s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv
+[88.052s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg
+[88.062s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg
+[88.076s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv
+[88.086s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg
+[88.092s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg
+[88.102s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv
+[88.108s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg
+[88.117s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg
+[88.123s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv
+[88.129s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg
+[88.135s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg
+[88.141s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv
+[88.152s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg
+[88.158s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg
+[88.163s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv
+[88.173s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg
+[88.181s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg
+[88.188s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv
+[88.194s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg
+[88.202s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg
+[88.212s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv
+[88.221s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg
+[88.230s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg
+[88.236s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv
+[88.246s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg
+[88.252s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg
+[88.259s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox//rviz_plugins.xml
+[88.269s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox//solver_plugins.xml
+[88.283s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node
+[88.293s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node
+[88.304s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node
+[88.310s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node
+[88.323s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic
+[88.336s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/libtoolbox_common.so
+[88.348s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/libSlamToolboxPlugin.so
+[88.356s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/libceres_solver_plugin.so
+[88.367s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/libasync_slam_toolbox.so
+[88.374s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/libsync_slam_toolbox.so
+[88.380s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/liblocalization_slam_toolbox.so
+[88.389s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/liblifelong_slam_toolbox.so
+[88.401s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so
+[88.408s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/lib/libkartoSlamToolbox.so
+[88.416s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp
+[88.422s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp
+[88.428s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp
+[88.437s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp
+[88.448s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp
+[88.458s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/map_saver.hpp
+[88.468s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp
+[88.473s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/serialization.hpp
+[88.485s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp
+[88.497s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp
+[88.503s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp
+[88.508s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp
+[88.522s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp
+[88.533s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp
+[88.543s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp
+[88.549s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp
+[88.559s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp
+[88.567s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py
+[88.573s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py
+[88.584s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py
+[88.594s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py
+[88.604s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py
+[88.613s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml
+[88.623s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml
+[88.636s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml
+[88.649s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml
+[88.658s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml
+[88.666s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz
+[88.672s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/solver_plugins.xml
+[88.685s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/rviz_plugins.xml
+[88.694s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox
+[88.701s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox
+[88.710s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh
+[88.717s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv
+[88.729s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/path.sh
+[88.739s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/path.dsv
+[88.747s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/local_setup.bash
+[88.754s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/local_setup.sh
+[88.760s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/local_setup.zsh
+[88.769s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/local_setup.dsv
+[88.776s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/package.dsv
+[88.783s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox
+[88.794s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox
+[88.801s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox
+[88.813s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox
+[88.822s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake
+[88.829s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[88.837s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[88.844s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[88.856s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake
+[88.865s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[88.871s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[88.882s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake
+[88.891s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake
+[88.898s] -- Symlinking: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/package.xml
+[88.907s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so
+[88.908s] -- Set runtime path of "/home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so" to ""
+[88.909s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so
+[88.909s] -- Set runtime path of "/home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so" to ""
+[88.910s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so
+[88.911s] -- Set runtime path of "/home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so" to ""
+[88.911s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so
+[88.912s] -- Set runtime path of "/home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so" to ""
+[88.912s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so
+[88.913s] -- Set runtime path of "/home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so" to ""
+[88.913s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so
+[88.914s] -- Set runtime path of "/home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so" to ""
+[88.914s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so
+[88.915s] -- Set runtime path of "/home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so" to ""
+[88.961s] Listing '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py'...
+[88.961s] Listing '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py'...
+[88.961s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py'...
+[88.962s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py'...
+[88.962s] Compiling '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py'...
+[88.964s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so
+[88.964s] -- Set runtime path of "/home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so" to ""
+[88.964s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake
+[88.965s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake
+[88.965s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake
+[88.965s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake
+[88.965s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake
+[88.965s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake
+[88.966s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[88.966s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake
+[88.966s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake
+[88.966s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake
+[88.966s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake
+[88.967s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake
+[88.967s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake
+[88.967s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake
+[88.967s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake
+[88.968s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake
+[88.968s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake
+[88.968s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake
+[88.968s] -- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake
+[88.976s] Invoked command in '/home/autodrive_devkit/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake --install /home/autodrive_devkit/build/slam_toolbox

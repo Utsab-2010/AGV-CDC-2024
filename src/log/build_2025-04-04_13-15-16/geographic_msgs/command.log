@@ -1,0 +1,2 @@
+Invoking command in '/home/autodrive_devkit/src/build/geographic_msgs': /usr/bin/cmake /home/autodrive_devkit/src/geographic_info/geographic_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/src/install/geographic_msgs
+Invoked command in '/home/autodrive_devkit/src/build/geographic_msgs' returned '1': /usr/bin/cmake /home/autodrive_devkit/src/geographic_info/geographic_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/src/install/geographic_msgs

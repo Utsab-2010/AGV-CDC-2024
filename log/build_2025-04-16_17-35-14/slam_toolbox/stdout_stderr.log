@@ -1,0 +1,8 @@
+failed to create symbolic link '/home/autodrive_devkit/build/slam_toolbox/ament_cmake_python/slam_toolbox/slam_toolbox' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_slam_toolbox.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_slam_toolbox] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:467: CMakeFiles/ament_cmake_python_symlink_slam_toolbox.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[  9%] Built target slam_toolbox__rosidl_generator_c
+[ 10%] Built target slam_toolbox__cpp
+[ 12%] Built target kartoSlamToolbox
+gmake: *** [Makefile:146: all] Error 2

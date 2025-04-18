@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing f1tenth_stanley_controller.egg-info/PKG-INFO
+writing dependency_links to f1tenth_stanley_controller.egg-info/dependency_links.txt
+writing entry points to f1tenth_stanley_controller.egg-info/entry_points.txt
+writing requirements to f1tenth_stanley_controller.egg-info/requires.txt
+writing top-level names to f1tenth_stanley_controller.egg-info/top_level.txt
+reading manifest file 'f1tenth_stanley_controller.egg-info/SOURCES.txt'
+writing manifest file 'f1tenth_stanley_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth-stanley-controller.egg-link (link to .)
+Installing controller_node script to /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/f1tenth_stanley_controller
+
+Installed /home/autodrive_devkit/build/f1tenth_stanley_controller
+running symlink_data

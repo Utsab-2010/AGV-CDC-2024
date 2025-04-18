@@ -1,0 +1,81 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_generator_c[0m
+[  0%] Built target nav2_msgs__cpp
+[  0%] Built target ament_cmake_python_copy_nav2_msgs
+[35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target nav2_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[  1%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/navigate_through_poses__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/compute_path_through_poses__functions.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/follow_gps_waypoints__functions.c.o[0m
+[  1%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/undock_robot__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/dock_robot__functions.c.o[0m
+In file included from [01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_c/nav2_msgs/action/detail/compute_path_through_poses__functions.h:19[m[K,
+                 from [01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_c/nav2_msgs/action/detail/compute_path_through_poses__functions.c:4[m[K:
+[01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_c/nav2_msgs/action/detail/compute_path_through_poses__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/detail/goals__struct.h: No such file or directory
+   22 | #include [01;31m[K"nav_msgs/msg/detail/goals__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_generator_c.dir/build.make:1203: CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/compute_path_through_poses__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_c/nav2_msgs/action/detail/navigate_through_poses__functions.h:19[m[K,
+                 from [01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_c/nav2_msgs/action/detail/navigate_through_poses__functions.c:4[m[K:
+[01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_c/nav2_msgs/action/detail/navigate_through_poses__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/detail/goals__struct.h: No such file or directory
+   22 | #include [01;31m[K"nav_msgs/msg/detail/goals__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_generator_c.dir/build.make:1273: CMakeFiles/nav2_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav2_msgs/action/detail/navigate_through_poses__functions.c.o] Error 1
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/smooth_path__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/navigate_to_pose__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/drive_on_heading__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/compute_path_through_poses__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/follow_path__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/navigate_through_poses__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/wait__type_support.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/navigate_to_pose__type_support.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/compute_path_through_poses__type_support.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/follow_path__type_support.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/spin__type_support.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/compute_path_through_poses__type_support.cpp.o[0m
+In file included from [01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/compute_path_through_poses__type_support.cpp:12[m[K:
+[01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_cpp/nav2_msgs/action/detail/compute_path_through_poses__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/detail/goals__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"nav_msgs/msg/detail/goals__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/build.make:838: CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_msgs/action/detail/compute_path_through_poses__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/compute_path_through_poses__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/compute_path_through_poses__type_support.cpp:4[m[K:
+[01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_cpp/nav2_msgs/action/detail/compute_path_through_poses__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/detail/goals__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"nav_msgs/msg/detail/goals__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/build.make:838: CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/compute_path_through_poses__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav2_msgs/action/detail/dds_fastrtps/smooth_path__type_support.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/dummy_behavior__type_support.cpp.o[0m
+In file included from [01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_typesupport_cpp/nav2_msgs/action/compute_path_through_poses__type_support.cpp:7[m[K:
+[01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_cpp/nav2_msgs/action/detail/compute_path_through_poses__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/detail/goals__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"nav_msgs/msg/detail/goals__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_typesupport_cpp/nav2_msgs/action/navigate_through_poses__type_support.cpp:7[m[K:
+[01m[K/home/autodrive_devkit/build/nav2_msgs/rosidl_generator_cpp/nav2_msgs/action/detail/navigate_through_poses__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/detail/goals__struct.hpp: No such file or directory
+   20 | #include [01;31m[K"nav_msgs/msg/detail/goals__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/build.make:786: CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/navigate_through_poses__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/build.make:716: CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav2_msgs/action/compute_path_through_poses__type_support.cpp.o] Error 1
+running egg_info
+writing nav2_msgs.egg-info/PKG-INFO
+writing dependency_links to nav2_msgs.egg-info/dependency_links.txt
+writing top-level names to nav2_msgs.egg-info/top_level.txt
+reading manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+writing manifest file 'nav2_msgs.egg-info/SOURCES.txt'
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/nav2_msgs__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[  8%] Built target ament_cmake_python_build_nav2_msgs_egg
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/nav2_msgs__rosidl_typesupport_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/nav2_msgs__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/nav2_msgs__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

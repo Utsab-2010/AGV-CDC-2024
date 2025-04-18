@@ -1,0 +1,2 @@
+Invoking command in '/home/autodrive_devkit/build/slam_toolbox': CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/slam_toolbox
+Invoked command in '/home/autodrive_devkit/build/slam_toolbox' returned '1': CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/src/slam_toolbox -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/slam_toolbox

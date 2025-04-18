@@ -1,0 +1,492 @@
+[0.000000] (-) TimerEvent: {}
+[0.000361] (autodrive_f1tenth) JobQueued: {'identifier': 'autodrive_f1tenth', 'dependencies': OrderedDict()}
+[0.000387] (f1tenth_stanley_controller) JobQueued: {'identifier': 'f1tenth_stanley_controller', 'dependencies': OrderedDict()}
+[0.000399] (slam_toolbox) JobQueued: {'identifier': 'slam_toolbox', 'dependencies': OrderedDict()}
+[0.000640] (autodrive_f1tenth) JobStarted: {'identifier': 'autodrive_f1tenth'}
+[0.007881] (f1tenth_stanley_controller) JobStarted: {'identifier': 'f1tenth_stanley_controller'}
+[0.011668] (slam_toolbox) JobStarted: {'identifier': 'slam_toolbox'}
+[0.099842] (-) TimerEvent: {}
+[0.200207] (-) TimerEvent: {}
+[0.300663] (-) TimerEvent: {}
+[0.374965] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'cmake'}
+[0.375521] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'build'}
+[0.376123] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/autodrive_devkit/build/slam_toolbox', '--', '-j16', '-l16'], 'cwd': '/home/autodrive_devkit/build/slam_toolbox', 'env': OrderedDict([('HOSTNAME', 'Legion-Slim-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/autodrive_devkit/install/slam_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/autodrive_devkit/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble'), ('PWD', '/home/autodrive_devkit/build/slam_toolbox'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble')]), 'shell': False}
+[0.400776] (-) TimerEvent: {}
+[0.433488] (slam_toolbox) StdoutLine: {'line': b'[  1%] Built target slam_toolbox__cpp\n'}
+[0.433870] (slam_toolbox) StdoutLine: {'line': b'[ 10%] Built target slam_toolbox__rosidl_generator_c\n'}
+[0.445850] (slam_toolbox) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_slam_toolbox\n'}
+[0.454831] (slam_toolbox) StdoutLine: {'line': b'[ 12%] Built target kartoSlamToolbox\n'}
+[0.456808] (slam_toolbox) StdoutLine: {'line': b'[ 20%] Built target slam_toolbox__rosidl_typesupport_c\n'}
+[0.458218] (slam_toolbox) StdoutLine: {'line': b'[ 35%] Built target slam_toolbox__rosidl_typesupport_introspection_c\n'}
+[0.458442] (slam_toolbox) StdoutLine: {'line': b'[ 36%] Built target slam_toolbox__rosidl_typesupport_cpp\n'}
+[0.460769] (slam_toolbox) StdoutLine: {'line': b'[ 53%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp\n'}
+[0.461047] (slam_toolbox) StdoutLine: {'line': b'[ 53%] Built target slam_toolbox__rosidl_typesupport_introspection_cpp\n'}
+[0.474080] (slam_toolbox) StdoutLine: {'line': b'[ 62%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c\n'}
+[0.491687] (slam_toolbox) StdoutLine: {'line': b'[ 64%] Built target SlamToolboxPlugin\n'}
+[0.492655] (slam_toolbox) StdoutLine: {'line': b'[ 64%] Built target slam_toolbox\n'}
+[0.494793] (slam_toolbox) StdoutLine: {'line': b'[ 66%] Built target ceres_solver_plugin\n'}
+[0.500893] (-) TimerEvent: {}
+[0.504871] (slam_toolbox) StdoutLine: {'line': b'[ 71%] Built target toolbox_common\n'}
+[0.517878] (slam_toolbox) StdoutLine: {'line': b'[ 71%] Built target slam_toolbox__py\n'}
+[0.543101] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target sync_slam_toolbox\n'}
+[0.543282] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target lifelong_slam_toolbox\n'}
+[0.543335] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target async_slam_toolbox\n'}
+[0.543383] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target merge_maps_kinematic\n'}
+[0.543423] (slam_toolbox) StdoutLine: {'line': b'[ 79%] Built target localization_slam_toolbox\n'}
+[0.546352] (slam_toolbox) StdoutLine: {'line': b'[ 87%] Built target slam_toolbox__rosidl_generator_py\n'}
+[0.570402] (slam_toolbox) StdoutLine: {'line': b'[ 92%] Built target slam_toolbox__rosidl_typesupport_c__pyext\n'}
+[0.570828] (slam_toolbox) StdoutLine: {'line': b'[ 92%] Built target slam_toolbox__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.570907] (slam_toolbox) StdoutLine: {'line': b'[ 92%] Built target slam_toolbox__rosidl_typesupport_introspection_c__pyext\n'}
+[0.583426] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target sync_slam_toolbox_node\n'}
+[0.583690] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target localization_slam_toolbox_node\n'}
+[0.583773] (slam_toolbox) StdoutLine: {'line': b'[ 96%] Built target async_slam_toolbox_node\n'}
+[0.583984] (slam_toolbox) StdoutLine: {'line': b'[ 98%] Built target lifelong_slam_toolbox_node\n'}
+[0.584045] (slam_toolbox) StdoutLine: {'line': b'[ 99%] Built target map_and_localization_slam_toolbox\n'}
+[0.600993] (-) TimerEvent: {}
+[0.622727] (f1tenth_stanley_controller) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/f1tenth_stanley_controller', 'build', '--build-base', '/home/autodrive_devkit/build/f1tenth_stanley_controller/build', 'install', '--record', '/home/autodrive_devkit/build/f1tenth_stanley_controller/install.log', '--install-scripts', '$base/lib/f1tenth_stanley_controller', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/autodrive_devkit/src/f1tenth_stanley_controller', 'env': {'HOSTNAME': 'Legion-Slim-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/autodrive_devkit/install/slam_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/autodrive_devkit/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble', 'PWD': '/home/autodrive_devkit/build/f1tenth_stanley_controller', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/autodrive_devkit/build/f1tenth_stanley_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/autodrive_devkit/install/slam_toolbox'}, 'shell': False}
+[0.624620] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target map_and_localization_slam_toolbox_node\n'}
+[0.626782] (slam_toolbox) StdoutLine: {'line': b'running egg_info\n'}
+[0.627344] (slam_toolbox) StdoutLine: {'line': b'writing slam_toolbox.egg-info/PKG-INFO\n'}
+[0.627545] (slam_toolbox) StdoutLine: {'line': b'writing dependency_links to slam_toolbox.egg-info/dependency_links.txt\n'}
+[0.627686] (slam_toolbox) StdoutLine: {'line': b'writing top-level names to slam_toolbox.egg-info/top_level.txt\n'}
+[0.629604] (slam_toolbox) StdoutLine: {'line': b"reading manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[0.630058] (slam_toolbox) StdoutLine: {'line': b"writing manifest file 'slam_toolbox.egg-info/SOURCES.txt'\n"}
+[0.636904] (autodrive_f1tenth) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autodrive_f1tenth', 'build', '--build-base', '/home/autodrive_devkit/build/autodrive_f1tenth/build', 'install', '--record', '/home/autodrive_devkit/build/autodrive_f1tenth/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/autodrive_devkit/src/autodrive_devkit', 'env': {'HOSTNAME': 'Legion-Slim-5', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/autodrive_devkit/install/slam_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/autodrive_devkit/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'XDG_RUNTIME_DIR': '/tmp/runtime-root', 'DISPLAY': ':1', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble', 'PWD': '/home/autodrive_devkit/build/autodrive_f1tenth', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/autodrive_devkit/build/autodrive_f1tenth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/autodrive_devkit/install/slam_toolbox'}, 'shell': False}
+[0.658814] (slam_toolbox) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_slam_toolbox_egg\n'}
+[0.671756] (slam_toolbox) CommandEnded: {'returncode': 0}
+[0.701060] (-) TimerEvent: {}
+[0.765847] (f1tenth_stanley_controller) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[0.766018] (f1tenth_stanley_controller) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.771648] (f1tenth_stanley_controller) StdoutLine: {'line': b'running egg_info\n'}
+[0.772159] (f1tenth_stanley_controller) StdoutLine: {'line': b'writing ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/PKG-INFO\n'}
+[0.772389] (f1tenth_stanley_controller) StdoutLine: {'line': b'writing dependency_links to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/dependency_links.txt\n'}
+[0.772473] (f1tenth_stanley_controller) StdoutLine: {'line': b'writing entry points to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/entry_points.txt\n'}
+[0.772542] (f1tenth_stanley_controller) StdoutLine: {'line': b'writing requirements to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/requires.txt\n'}
+[0.772613] (f1tenth_stanley_controller) StdoutLine: {'line': b'writing top-level names to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/top_level.txt\n'}
+[0.773758] (f1tenth_stanley_controller) StdoutLine: {'line': b"reading manifest file '../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/SOURCES.txt'\n"}
+[0.774302] (f1tenth_stanley_controller) StdoutLine: {'line': b"writing manifest file '../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/SOURCES.txt'\n"}
+[0.774384] (f1tenth_stanley_controller) StdoutLine: {'line': b'running build\n'}
+[0.774423] (f1tenth_stanley_controller) StdoutLine: {'line': b'running build_py\n'}
+[0.774494] (f1tenth_stanley_controller) StdoutLine: {'line': b'copying f1tenth_stanley_controller/controller_node.py -> /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller\n'}
+[0.774730] (f1tenth_stanley_controller) StdoutLine: {'line': b'running install\n'}
+[0.774931] (f1tenth_stanley_controller) StdoutLine: {'line': b'running install_lib\n'}
+[0.775478] (f1tenth_stanley_controller) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/f1tenth_stanley_controller/build/lib/f1tenth_stanley_controller/controller_node.py -> /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller\n'}
+[0.775942] (f1tenth_stanley_controller) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller/controller_node.py to controller_node.cpython-310.pyc\n'}
+[0.777393] (f1tenth_stanley_controller) StdoutLine: {'line': b'running install_data\n'}
+[0.777509] (f1tenth_stanley_controller) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.778836] (f1tenth_stanley_controller) StdoutLine: {'line': b"removing '/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.779093] (f1tenth_stanley_controller) StdoutLine: {'line': b'Copying ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info to /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller-0.0.0-py3.10.egg-info\n'}
+[0.779829] (f1tenth_stanley_controller) StdoutLine: {'line': b'running install_scripts\n'}
+[0.783401] (autodrive_f1tenth) StdoutLine: {'line': b'running egg_info\n'}
+[0.783902] (autodrive_f1tenth) StdoutLine: {'line': b'writing ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/PKG-INFO\n'}
+[0.784124] (autodrive_f1tenth) StdoutLine: {'line': b'writing dependency_links to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/dependency_links.txt\n'}
+[0.784259] (autodrive_f1tenth) StdoutLine: {'line': b'writing entry points to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/entry_points.txt\n'}
+[0.784364] (autodrive_f1tenth) StdoutLine: {'line': b'writing requirements to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/requires.txt\n'}
+[0.784443] (autodrive_f1tenth) StdoutLine: {'line': b'writing top-level names to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/top_level.txt\n'}
+[0.785630] (autodrive_f1tenth) StdoutLine: {'line': b"reading manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'\n"}
+[0.786375] (autodrive_f1tenth) StdoutLine: {'line': b"writing manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'\n"}
+[0.786478] (autodrive_f1tenth) StdoutLine: {'line': b'running build\n'}
+[0.786539] (autodrive_f1tenth) StdoutLine: {'line': b'running build_py\n'}
+[0.786802] (autodrive_f1tenth) StdoutLine: {'line': b'running install\n'}
+[0.787011] (autodrive_f1tenth) StdoutLine: {'line': b'running install_lib\n'}
+[0.787878] (autodrive_f1tenth) StdoutLine: {'line': b'running install_data\n'}
+[0.788087] (autodrive_f1tenth) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.789888] (autodrive_f1tenth) StdoutLine: {'line': b"removing '/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth-0.1.0-py3.10.egg-info' (and everything under it)\n"}
+[0.790348] (autodrive_f1tenth) StdoutLine: {'line': b'Copying ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info to /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth-0.1.0-py3.10.egg-info\n'}
+[0.791287] (autodrive_f1tenth) StdoutLine: {'line': b'running install_scripts\n'}
+[0.795386] (f1tenth_stanley_controller) StdoutLine: {'line': b'Installing controller_node script to /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/f1tenth_stanley_controller\n'}
+[0.795703] (f1tenth_stanley_controller) StdoutLine: {'line': b"writing list of installed files to '/home/autodrive_devkit/build/f1tenth_stanley_controller/install.log'\n"}
+[0.801150] (-) TimerEvent: {}
+[0.807490] (autodrive_f1tenth) StdoutLine: {'line': b'Installing autodrive_bridge script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth\n'}
+[0.807685] (autodrive_f1tenth) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth\n'}
+[0.807957] (autodrive_f1tenth) StdoutLine: {'line': b"writing list of installed files to '/home/autodrive_devkit/build/autodrive_f1tenth/install.log'\n"}
+[0.825840] (f1tenth_stanley_controller) CommandEnded: {'returncode': 0}
+[0.832696] (f1tenth_stanley_controller) JobEnded: {'identifier': 'f1tenth_stanley_controller', 'rc': 0}
+[0.834437] (autodrive_f1tenth) CommandEnded: {'returncode': 0}
+[0.839234] (autodrive_f1tenth) JobEnded: {'identifier': 'autodrive_f1tenth', 'rc': 0}
+[0.901223] (-) TimerEvent: {}
+[0.934647] (slam_toolbox) JobProgress: {'identifier': 'slam_toolbox', 'progress': 'install'}
+[0.943072] (slam_toolbox) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/autodrive_devkit/build/slam_toolbox'], 'cwd': '/home/autodrive_devkit/build/slam_toolbox', 'env': OrderedDict([('HOSTNAME', 'Legion-Slim-5'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/autodrive_devkit/install/slam_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/autodrive_devkit/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble'), ('PWD', '/home/autodrive_devkit/build/slam_toolbox'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble')]), 'shell': False}
+[0.951238] (slam_toolbox) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[0.951410] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/rosidl_interfaces/slam_toolbox\n'}
+[0.951488] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.951577] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.951627] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.951659] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.c\n'}
+[0.951702] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.h\n'}
+[0.951746] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.c\n'}
+[0.951812] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.h\n'}
+[0.951883] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.h\n'}
+[0.951930] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.h\n'}
+[0.951970] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.h\n'}
+[0.952010] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.h\n'}
+[0.952055] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.h\n'}
+[0.952097] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.h\n'}
+[0.952230] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.h\n'}
+[0.952284] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.h\n'}
+[0.952347] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.c\n'}
+[0.952494] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.h\n'}
+[0.952548] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.h\n'}
+[0.952605] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__functions.h\n'}
+[0.952636] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.h\n'}
+[0.952666] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.c\n'}
+[0.952699] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__functions.h\n'}
+[0.952738] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.h\n'}
+[0.952773] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.h\n'}
+[0.952823] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.h\n'}
+[0.952855] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.c\n'}
+[0.952906] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.h\n'}
+[0.952936] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__functions.c\n'}
+[0.952965] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.h\n'}
+[0.952993] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.h\n'}
+[0.953021] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__functions.c\n'}
+[0.953050] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.h\n'}
+[0.953078] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__functions.h\n'}
+[0.953106] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__functions.c\n'}
+[0.953137] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.c\n'}
+[0.953166] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__functions.c\n'}
+[0.953235] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__functions.h\n'}
+[0.953264] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.h\n'}
+[0.953292] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.h\n'}
+[0.953338] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.h\n'}
+[0.953366] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__functions.h\n'}
+[0.953393] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.h\n'}
+[0.953421] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__functions.h\n'}
+[0.953448] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.h\n'}
+[0.953475] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.h\n'}
+[0.953503] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.h\n'}
+[0.953530] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.h\n'}
+[0.953557] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.h\n'}
+[0.953584] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.h\n'}
+[0.953651] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.h\n'}
+[0.953677] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.h\n'}
+[0.953702] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.h\n'}
+[0.953727] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.h\n'}
+[0.953753] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[0.953778] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.953840] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/library_path.sh\n'}
+[0.953870] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/library_path.dsv\n'}
+[0.953897] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_c.so\n'}
+[0.953925] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.953952] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.953979] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.954006] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954034] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954076] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954104] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954131] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954159] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954212] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954239] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954266] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954293] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_c.h\n'}
+[0.954320] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[0.954347] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.954374] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_c.so\n'}
+[0.954401] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.954428] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.954455] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.954482] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__traits.hpp\n'}
+[0.954509] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__traits.hpp\n'}
+[0.954536] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__traits.hpp\n'}
+[0.954563] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__builder.hpp\n'}
+[0.954590] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__traits.hpp\n'}
+[0.954745] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__struct.hpp\n'}
+[0.954810] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__builder.hpp\n'}
+[0.954870] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__builder.hpp\n'}
+[0.954913] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__struct.hpp\n'}
+[0.954943] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__traits.hpp\n'}
+[0.954975] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__struct.hpp\n'}
+[0.955006] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__builder.hpp\n'}
+[0.955035] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__traits.hpp\n'}
+[0.955064] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__traits.hpp\n'}
+[0.955092] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__struct.hpp\n'}
+[0.955122] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__struct.hpp\n'}
+[0.955151] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__builder.hpp\n'}
+[0.955179] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__struct.hpp\n'}
+[0.955207] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__builder.hpp\n'}
+[0.955234] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__traits.hpp\n'}
+[0.955274] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__builder.hpp\n'}
+[0.955318] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__builder.hpp\n'}
+[0.955354] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__builder.hpp\n'}
+[0.955388] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__struct.hpp\n'}
+[0.955415] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__traits.hpp\n'}
+[0.955442] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__struct.hpp\n'}
+[0.955470] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__traits.hpp\n'}
+[0.955514] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__struct.hpp\n'}
+[0.955542] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__struct.hpp\n'}
+[0.955570] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__builder.hpp\n'}
+[0.955598] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/loop_closure.hpp\n'}
+[0.955681] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/save_map.hpp\n'}
+[0.955709] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/toggle_interactive.hpp\n'}
+[0.955737] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/pause.hpp\n'}
+[0.955764] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear_queue.hpp\n'}
+[0.955817] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/deserialize_pose_graph.hpp\n'}
+[0.955857] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/clear.hpp\n'}
+[0.955887] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/add_submap.hpp\n'}
+[0.955934] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/merge_maps.hpp\n'}
+[0.955963] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/serialize_pose_graph.hpp\n'}
+[0.955991] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.956018] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.956045] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.956072] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956099] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956127] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/dds_fastrtps\n'}
+[0.956158] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956185] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956213] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956240] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956266] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956328] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956355] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956382] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.956409] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[0.956437] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.956464] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.956491] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.956518] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.956545] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.956571] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.c\n'}
+[0.956599] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.c\n'}
+[0.956626] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[0.956653] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.c\n'}
+[0.956690] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.c\n'}
+[0.956715] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_c.h\n'}
+[0.956742] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.c\n'}
+[0.956769] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_c.h\n'}
+[0.956821] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_c.h\n'}
+[0.956863] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_c.h\n'}
+[0.956890] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_c.h\n'}
+[0.956918] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_c.h\n'}
+[0.956945] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.c\n'}
+[0.956973] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_c.h\n'}
+[0.957000] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.c\n'}
+[0.957049] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_c.h\n'}
+[0.957077] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.c\n'}
+[0.957104] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.c\n'}
+[0.957131] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[0.957176] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.c\n'}
+[0.957204] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg\n'}
+[0.957230] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.957258] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_c.so\n'}
+[0.957283] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_c.so\n'}
+[0.957311] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox\n'}
+[0.957343] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv\n'}
+[0.957372] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail\n'}
+[0.957399] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__type_support.cpp\n'}
+[0.957426] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957454] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957481] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__type_support.cpp\n'}
+[0.957509] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957536] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957563] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/loop_closure__type_support.cpp\n'}
+[0.957590] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__type_support.cpp\n'}
+[0.957618] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957645] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957703] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/serialize_pose_graph__type_support.cpp\n'}
+[0.957749] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__type_support.cpp\n'}
+[0.957780] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/deserialize_pose_graph__type_support.cpp\n'}
+[0.957832] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/toggle_interactive__type_support.cpp\n'}
+[0.957874] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__type_support.cpp\n'}
+[0.957911] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/add_submap__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957949] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.957986] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/merge_maps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.958046] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/pause__type_support.cpp\n'}
+[0.958084] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox/srv/detail/clear_queue__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.958129] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_introspection_cpp.so\n'}
+[0.958170] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_typesupport_cpp.so\n'}
+[0.958207] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.sh\n'}
+[0.958244] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/pythonpath.dsv\n'}
+[0.958279] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info\n'}
+[0.958316] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/SOURCES.txt\n'}
+[0.965845] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/top_level.txt\n'}
+[0.966012] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/PKG-INFO\n'}
+[0.966083] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox-2.6.8-py3.10.egg-info/dependency_links.txt\n'}
+[0.966283] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox\n'}
+[0.966363] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv\n'}
+[0.966417] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap_s.c\n'}
+[0.966471] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps.py\n'}
+[0.966519] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph.py\n'}
+[0.966593] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph_s.c\n'}
+[0.966641] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause.py\n'}
+[0.966686] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_pause_s.c\n'}
+[0.966727] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map_s.c\n'}
+[0.966766] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure.py\n'}
+[0.966852] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/__init__.py\n'}
+[0.966906] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue.py\n'}
+[0.966936] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_serialize_pose_graph.py\n'}
+[0.966977] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_s.c\n'}
+[0.967101] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive_s.c\n'}
+[0.967145] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear_queue_s.c\n'}
+[0.967177] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_deserialize_pose_graph_s.c\n'}
+[0.967206] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_loop_closure_s.c\n'}
+[0.967233] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_clear.py\n'}
+[0.967260] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_save_map.py\n'}
+[0.967285] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_merge_maps_s.c\n'}
+[0.967317] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_toggle_interactive.py\n'}
+[0.967344] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv/_add_submap.py\n'}
+[0.967369] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.967396] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/libslam_toolbox__rosidl_generator_py.so\n'}
+[0.967424] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/__init__.py\n'}
+[0.967449] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.967474] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.967500] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/_slam_toolbox_s.ep.rosidl_typesupport_c.c\n'}
+[0.967525] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.967551] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.990335] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox'...\n"}
+[0.990457] (slam_toolbox) StdoutLine: {'line': b"Listing '/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/srv'...\n"}
+[0.993608] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.994089] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.994573] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages/slam_toolbox/slam_toolbox_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.994788] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libslam_toolbox__rosidl_generator_py.so\n'}
+[0.994923] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/Pause.idl\n'}
+[0.994968] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/ClearQueue.idl\n'}
+[0.995095] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/ToggleInteractive.idl\n'}
+[0.995150] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/Clear.idl\n'}
+[0.995189] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/SaveMap.idl\n'}
+[0.995235] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/LoopClosure.idl\n'}
+[0.995264] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/MergeMaps.idl\n'}
+[0.995309] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/AddSubmap.idl\n'}
+[0.995347] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/DeserializePoseGraph.idl\n'}
+[0.995392] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srv/SerializePoseGraph.idl\n'}
+[0.995474] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Pause.srv\n'}
+[0.995591] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Request.msg\n'}
+[0.995695] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Pause_Response.msg\n'}
+[0.995722] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue.srv\n'}
+[0.995767] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Request.msg\n'}
+[0.995801] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ClearQueue_Response.msg\n'}
+[0.995832] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive.srv\n'}
+[0.995860] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Request.msg\n'}
+[0.995888] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/ToggleInteractive_Response.msg\n'}
+[0.995915] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Clear.srv\n'}
+[0.995942] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Request.msg\n'}
+[0.995968] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/Clear_Response.msg\n'}
+[0.995995] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap.srv\n'}
+[0.996040] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Request.msg\n'}
+[0.996102] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SaveMap_Response.msg\n'}
+[0.996130] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure.srv\n'}
+[0.996159] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Request.msg\n'}
+[0.996188] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/LoopClosure_Response.msg\n'}
+[0.996217] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps.srv\n'}
+[0.996244] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Request.msg\n'}
+[0.996293] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/MergeMaps_Response.msg\n'}
+[0.996320] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap.srv\n'}
+[0.996347] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Request.msg\n'}
+[0.996374] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/AddSubmap_Response.msg\n'}
+[0.996418] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph.srv\n'}
+[0.996451] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Request.msg\n'}
+[0.996478] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/DeserializePoseGraph_Response.msg\n'}
+[0.996522] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph.srv\n'}
+[0.996556] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Request.msg\n'}
+[0.996590] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/srvs/SerializePoseGraph_Response.msg\n'}
+[0.996618] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/rviz_plugins.xml\n'}
+[0.996643] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/solver_plugins.xml\n'}
+[0.996751] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/async_slam_toolbox_node\n'}
+[0.997016] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/sync_slam_toolbox_node\n'}
+[0.997288] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/localization_slam_toolbox_node\n'}
+[0.997524] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/map_and_localization_slam_toolbox_node\n'}
+[0.997812] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/slam_toolbox/merge_maps_kinematic\n'}
+[0.998090] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libtoolbox_common.so\n'}
+[0.998370] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[0.998624] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libceres_solver_plugin.so\n'}
+[0.998905] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libasync_slam_toolbox.so\n'}
+[0.999168] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libsync_slam_toolbox.so\n'}
+[0.999446] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/liblocalization_slam_toolbox.so\n'}
+[0.999709] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/liblifelong_slam_toolbox.so\n'}
+[0.999994] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libmap_and_localization_slam_toolbox.so\n'}
+[1.000368] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libkartoSlamToolbox.so\n'}
+[1.000673] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/lib/libSlamToolboxPlugin.so\n'}
+[1.000856] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include\n'}
+[1.000976] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox\n'}
+[1.001080] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_mapper.hpp\n'}
+[1.001152] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/map_saver.hpp\n'}
+[1.001230] (-) TimerEvent: {}
+[1.001438] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox_common.hpp\n'}
+[1.001531] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/serialization.hpp\n'}
+[1.001693] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox_sync.hpp\n'}
+[1.001732] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/toolbox_types.hpp\n'}
+[1.001760] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/experimental\n'}
+[1.001794] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_map_and_localization.hpp\n'}
+[1.001844] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/experimental/slam_toolbox_lifelong.hpp\n'}
+[1.001872] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/merge_maps_kinematic.hpp\n'}
+[1.001899] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/toolbox_msgs.hpp\n'}
+[1.001926] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox_localization.hpp\n'}
+[1.001953] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/visualization_utils.hpp\n'}
+[1.002004] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/slam_toolbox_async.hpp\n'}
+[1.002061] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/laser_utils.hpp\n'}
+[1.002103] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/loop_closure_assistant.hpp\n'}
+[1.002150] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/get_pose_helper.hpp\n'}
+[1.002184] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/slam_toolbox/snap_utils.hpp\n'}
+[1.002209] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch\n'}
+[1.002245] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/localization_launch.py\n'}
+[1.002271] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/online_async_launch.py\n'}
+[1.002305] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/online_sync_launch.py\n'}
+[1.002341] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/merge_maps_kinematic_launch.py\n'}
+[1.002366] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/launch/offline_launch.py\n'}
+[1.002399] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config\n'}
+[1.002429] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_offline.yaml\n'}
+[1.002464] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_async.yaml\n'}
+[1.002501] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_online_sync.yaml\n'}
+[1.002536] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_localization.yaml\n'}
+[1.002572] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/mapper_params_lifelong.yaml\n'}
+[1.002608] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/config/slam_toolbox_default.rviz\n'}
+[1.002637] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/solver_plugins.xml\n'}
+[1.002676] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/rviz_plugins.xml\n'}
+[1.002711] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/package_run_dependencies/slam_toolbox\n'}
+[1.002749] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/parent_prefix_path/slam_toolbox\n'}
+[1.002789] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.sh\n'}
+[1.002861] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/ament_prefix_path.dsv\n'}
+[1.002897] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/path.sh\n'}
+[1.002923] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/environment/path.dsv\n'}
+[1.002952] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/local_setup.bash\n'}
+[1.002977] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/local_setup.sh\n'}
+[1.003002] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/local_setup.zsh\n'}
+[1.003030] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/local_setup.dsv\n'}
+[1.003081] (slam_toolbox) StdoutLine: {'line': b'-- Installing: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/package.dsv\n'}
+[1.003130] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/packages/slam_toolbox\n'}
+[1.003184] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/rviz_common__pluginlib__plugin/slam_toolbox\n'}
+[1.003212] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/slam_toolbox__pluginlib__plugin/slam_toolbox\n'}
+[1.003252] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport.cmake\n'}
+[1.003299] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cExport-release.cmake\n'}
+[1.003590] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.003684] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[1.003800] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_cppExport.cmake\n'}
+[1.003915] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.003974] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[1.004084] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.004143] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[1.004240] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport.cmake\n'}
+[1.004301] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cExport-release.cmake\n'}
+[1.004380] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.004428] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[1.004537] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport.cmake\n'}
+[1.004590] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolbox__rosidl_typesupport_cppExport-release.cmake\n'}
+[1.004692] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport.cmake\n'}
+[1.004739] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/export_slam_toolbox__rosidl_generator_pyExport-release.cmake\n'}
+[1.004845] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport.cmake\n'}
+[1.004888] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/SlamToolboxPluginExport-release.cmake\n'}
+[1.004941] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/ament_index/resource_index/rclcpp_components/slam_toolbox\n'}
+[1.004995] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake-extras.cmake\n'}
+[1.005044] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.005095] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.005148] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.005194] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.005245] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.005292] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.005344] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig.cmake\n'}
+[1.005382] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/cmake/slam_toolboxConfig-version.cmake\n'}
+[1.005434] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/package.xml\n'}
+[1.005560] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include/\n'}
+[1.005598] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk\n'}
+[1.005631] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/nanoflann_adaptors.h\n'}
+[1.005671] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Mapper.h\n'}
+[1.005710] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Karto.h\n'}
+[1.005758] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Math.h\n'}
+[1.005785] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Types.h\n'}
+[1.005824] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/nanoflann.hpp\n'}
+[1.005857] (slam_toolbox) StdoutLine: {'line': b'-- Up-to-date: /home/autodrive_devkit/install/slam_toolbox/include//karto_sdk/Macros.h\n'}
+[1.008169] (slam_toolbox) CommandEnded: {'returncode': 0}
+[1.101315] (-) TimerEvent: {}
+[1.201601] (-) TimerEvent: {}
+[1.277308] (slam_toolbox) JobEnded: {'identifier': 'slam_toolbox', 'rc': 0}
+[1.277770] (-) EventReactorShutdown: {}

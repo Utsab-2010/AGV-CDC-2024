@@ -1,0 +1,7 @@
+wheel_odometry_node:
+  ros__parameters:
+    wheel_separation: 0.25    # Distance between wheels (meters)
+    wheel_diameter: 0.13      # Wheel diameter (meters)
+    ticks_per_rev: 2626       # Encoder ticks per full revolution
+    base_frame: "base_link"   # TF frame ID
+    odom_frame: "odom"        # TF frame ID

@@ -1,0 +1,23 @@
+[0.608s] Invoking command in '/home/autodrive_devkit/src/f1tenth_stanley_controller': PYTHONPATH=/home/autodrive_devkit/build/f1tenth_stanley_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f1tenth_stanley_controller build --build-base /home/autodrive_devkit/build/f1tenth_stanley_controller/build install --record /home/autodrive_devkit/build/f1tenth_stanley_controller/install.log --install-scripts $base/lib/f1tenth_stanley_controller --single-version-externally-managed install_data
+[0.756s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[0.756s]   warnings.warn(
+[0.762s] running egg_info
+[0.762s] writing ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/PKG-INFO
+[0.762s] writing dependency_links to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/dependency_links.txt
+[0.762s] writing entry points to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/entry_points.txt
+[0.763s] writing requirements to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/requires.txt
+[0.763s] writing top-level names to ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/top_level.txt
+[0.764s] reading manifest file '../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/SOURCES.txt'
+[0.764s] writing manifest file '../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info/SOURCES.txt'
+[0.764s] running build
+[0.764s] running build_py
+[0.765s] running install
+[0.765s] running install_lib
+[0.766s] running install_data
+[0.766s] running install_egg_info
+[0.768s] removing '/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[0.768s] Copying ../../build/f1tenth_stanley_controller/f1tenth_stanley_controller.egg-info to /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages/f1tenth_stanley_controller-0.0.0-py3.10.egg-info
+[0.769s] running install_scripts
+[0.785s] Installing controller_node script to /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/f1tenth_stanley_controller
+[0.785s] writing list of installed files to '/home/autodrive_devkit/build/f1tenth_stanley_controller/install.log'
+[0.818s] Invoked command in '/home/autodrive_devkit/src/f1tenth_stanley_controller' returned '0': PYTHONPATH=/home/autodrive_devkit/build/f1tenth_stanley_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/f1tenth_stanley_controller build --build-base /home/autodrive_devkit/build/f1tenth_stanley_controller/build install --record /home/autodrive_devkit/build/f1tenth_stanley_controller/install.log --install-scripts $base/lib/f1tenth_stanley_controller --single-version-externally-managed install_data

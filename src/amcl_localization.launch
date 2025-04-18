@@ -1,0 +1,60 @@
+from launch import LaunchDescription
+from launch_ros.actions import Node
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions import LaunchConfiguration, ThisLaunchFileDir
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+from launch.actions import IncludeLaunchDescription
+import os
+
+def generate_launch_description():
+    map_file = LaunchConfiguration('map')
+    use_sim_time = LaunchConfiguration('use_sim_time')
+    custom_scan_topic = LaunchConfiguration('scan_topic')
+
+    return LaunchDescription([
+        DeclareLaunchArgument(
+            'map',
+            default_value='map.yaml',
+            description='Full path to map yaml file to load'
+        ),
+
+        DeclareLaunchArgument(
+            'use_sim_time',
+            default_value='false',
+            description='Use simulation (Gazebo) clock if true'
+        ),
+
+        DeclareLaunchArgument(
+            'scan_topic',
+            default_value='/rplidar/scan',
+            description='Custom laser scan topic'
+        ),
+
+        # Launch the map server
+        Node(
+            package='nav2_map_server',
+            executable='map_server',
+            name='map_server',
+            output='screen',
+            parameters=[{'yaml_filename': map_file, 'use_sim_time': use_sim_time}]
+        ),
+
+        # Launch AMCL node
+        Node(
+            package='nav2_amcl',
+            executable='amcl',
+            name='amcl',
+            output='screen',
+            parameters=[
+                {'use_sim_time': use_sim_time},
+                {'scan_topic': custom_scan_topic},
+                os.path.join(
+                    get_package_share_directory('nav2_bringup'),
+                    'params',
+                    'nav2_params.yaml'  # You can customize this file
+                )
+            ]
+        ),
+
+        # Optionally, include RViz or lifecycle manager here
+    ])

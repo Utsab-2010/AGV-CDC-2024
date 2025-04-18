@@ -1,0 +1,225 @@
+[0.012s] Invoking command in '/home/autodrive_devkit/build/nav2_util': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_msgs:/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_msgs:/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble LD_LIBRARY_PATH=/home/autodrive_devkit/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/autodrive_devkit/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/nav2_util
+[0.022s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Found bond: 3.0.2 (/opt/ros/humble/share/bond/cmake)
+[0.140s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.141s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.144s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.157s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.180s] -- Found bondcpp: 4.1.2 (/opt/ros/humble/share/bondcpp/cmake)
+[0.197s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.198s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.292s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.328s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.335s] -- Found nav2_common: 1.3.1 (/home/autodrive_devkit/install/nav2_common/share/nav2_common/cmake)
+[0.335s] -- Found nav2_msgs: 1.3.1 (/home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake)
+[0.385s] -- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.391s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[0.394s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.395s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.396s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.425s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.425s] -- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[0.492s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.516s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.516s] -- Configured cppcheck include dirs: 
+[0.516s] -- Configured cppcheck exclude dirs and/or files: 
+[0.518s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.518s] -- Configured cpplint exclude dirs and/or files: 
+[0.519s] -- Added test 'lint_cmake' to check CMake code style
+[0.521s] -- Added test 'uncrustify' to check C / C++ code style
+[0.521s] -- Configured uncrustify additional arguments: 
+[0.521s] -- Added test 'xmllint' to check XML markup files
+[0.523s] -- Configuring done
+[0.531s] [31mCMake Error at src/CMakeLists.txt:1 (add_library):
+[0.531s]   Target "nav2_util_core" links to target "smclib::smclib_header" but the
+[0.532s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.532s]   IMPORTED target, or an ALIAS target is missing?
+[0.532s] 
+[0.532s] [0m
+[0.532s] [31mCMake Error at src/CMakeLists.txt:35 (add_executable):
+[0.533s]   Target "lifecycle_bringup" links to target "smclib::smclib_header" but the
+[0.533s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.533s]   IMPORTED target, or an ALIAS target is missing?
+[0.533s] 
+[0.533s] [0m
+[0.533s] [31mCMake Error at src/CMakeLists.txt:40 (add_executable):
+[0.533s]   Target "base_footprint_publisher" links to target "smclib::smclib_header"
+[0.533s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.533s]   an IMPORTED target, or an ALIAS target is missing?
+[0.533s] 
+[0.533s] [0m
+[0.533s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.533s]   Target "test_execution_timer" links to target "smclib::smclib_header" but
+[0.533s]   the target was not found.  Perhaps a find_package() call is missing for an
+[0.533s]   IMPORTED target, or an ALIAS target is missing?
+[0.534s] Call Stack (most recent call first):
+[0.534s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.534s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.534s]   test/CMakeLists.txt:1 (ament_add_gtest)
+[0.534s] 
+[0.534s] [0m
+[0.534s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.534s]   Target "test_node_utils" links to target "smclib::smclib_header" but the
+[0.534s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.534s]   IMPORTED target, or an ALIAS target is missing?
+[0.534s] Call Stack (most recent call first):
+[0.534s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.534s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.534s]   test/CMakeLists.txt:4 (ament_add_gtest)
+[0.534s] 
+[0.534s] [0m
+[0.535s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.535s]   Target "test_service_client" links to target "smclib::smclib_header" but
+[0.535s]   the target was not found.  Perhaps a find_package() call is missing for an
+[0.535s]   IMPORTED target, or an ALIAS target is missing?
+[0.535s] Call Stack (most recent call first):
+[0.535s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.535s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.535s]   test/CMakeLists.txt:10 (ament_add_gtest)
+[0.535s] 
+[0.535s] [0m
+[0.535s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.535s]   Target "test_service_server" links to target "smclib::smclib_header" but
+[0.535s]   the target was not found.  Perhaps a find_package() call is missing for an
+[0.535s]   IMPORTED target, or an ALIAS target is missing?
+[0.535s] Call Stack (most recent call first):
+[0.536s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.536s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.536s]   test/CMakeLists.txt:13 (ament_add_gtest)
+[0.536s] 
+[0.536s] [0m
+[0.536s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.536s]   Target "test_string_utils" links to target "smclib::smclib_header" but the
+[0.536s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.536s]   IMPORTED target, or an ALIAS target is missing?
+[0.536s] Call Stack (most recent call first):
+[0.536s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.536s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.536s]   test/CMakeLists.txt:16 (ament_add_gtest)
+[0.536s] 
+[0.536s] [0m
+[0.536s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.537s]   Target "test_lifecycle_utils" links to target "smclib::smclib_header" but
+[0.537s]   the target was not found.  Perhaps a find_package() call is missing for an
+[0.537s]   IMPORTED target, or an ALIAS target is missing?
+[0.537s] Call Stack (most recent call first):
+[0.537s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.537s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.537s]   test/CMakeLists.txt:20 (ament_add_gtest)
+[0.537s] 
+[0.537s] [0m
+[0.537s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.537s]   Target "test_actions" links to target "smclib::smclib_header" but the
+[0.537s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.537s]   IMPORTED target, or an ALIAS target is missing?
+[0.537s] Call Stack (most recent call first):
+[0.537s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.538s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.538s]   test/CMakeLists.txt:23 (ament_add_gtest)
+[0.538s] 
+[0.538s] [0m
+[0.538s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.538s]   Target "test_lifecycle_node" links to target "smclib::smclib_header" but
+[0.538s]   the target was not found.  Perhaps a find_package() call is missing for an
+[0.538s]   IMPORTED target, or an ALIAS target is missing?
+[0.538s] Call Stack (most recent call first):
+[0.538s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.538s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.538s]   test/CMakeLists.txt:26 (ament_add_gtest)
+[0.538s] 
+[0.538s] [0m
+[0.538s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.538s]   Target "test_lifecycle_cli_node" links to target "smclib::smclib_header"
+[0.539s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.539s]   an IMPORTED target, or an ALIAS target is missing?
+[0.539s] Call Stack (most recent call first):
+[0.539s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.539s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.539s]   test/CMakeLists.txt:29 (ament_add_gtest)
+[0.539s] 
+[0.539s] [0m
+[0.539s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.539s]   Target "test_geometry_utils" links to target "smclib::smclib_header" but
+[0.539s]   the target was not found.  Perhaps a find_package() call is missing for an
+[0.539s]   IMPORTED target, or an ALIAS target is missing?
+[0.539s] Call Stack (most recent call first):
+[0.539s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.539s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.540s]   test/CMakeLists.txt:32 (ament_add_gtest)
+[0.540s] 
+[0.540s] [0m
+[0.540s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.540s]   Target "test_odometry_utils" links to target "smclib::smclib_header" but
+[0.540s]   the target was not found.  Perhaps a find_package() call is missing for an
+[0.540s]   IMPORTED target, or an ALIAS target is missing?
+[0.540s] Call Stack (most recent call first):
+[0.540s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.540s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.540s]   test/CMakeLists.txt:35 (ament_add_gtest)
+[0.540s] 
+[0.540s] [0m
+[0.540s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.540s]   Target "test_robot_utils" links to target "smclib::smclib_header" but the
+[0.540s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.541s]   IMPORTED target, or an ALIAS target is missing?
+[0.541s] Call Stack (most recent call first):
+[0.541s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.541s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.541s]   test/CMakeLists.txt:38 (ament_add_gtest)
+[0.541s] 
+[0.541s] [0m
+[0.541s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.541s]   Target "test_base_footprint_publisher" links to target
+[0.541s]   "smclib::smclib_header" but the target was not found.  Perhaps a
+[0.541s]   find_package() call is missing for an IMPORTED target, or an ALIAS target
+[0.541s]   is missing?
+[0.541s] Call Stack (most recent call first):
+[0.541s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.541s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.542s]   test/CMakeLists.txt:41 (ament_add_gtest)
+[0.542s] 
+[0.542s] [0m
+[0.542s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.542s]   Target "test_array_parser" links to target "smclib::smclib_header" but the
+[0.542s]   target was not found.  Perhaps a find_package() call is missing for an
+[0.542s]   IMPORTED target, or an ALIAS target is missing?
+[0.542s] Call Stack (most recent call first):
+[0.542s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.542s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.542s]   test/CMakeLists.txt:46 (ament_add_gtest)
+[0.542s] 
+[0.542s] [0m
+[0.542s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.542s]   Target "test_twist_publisher" links to target "smclib::smclib_header" but
+[0.542s]   the target was not found.  Perhaps a find_package() call is missing for an
+[0.543s]   IMPORTED target, or an ALIAS target is missing?
+[0.543s] Call Stack (most recent call first):
+[0.543s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.543s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.543s]   test/CMakeLists.txt:49 (ament_add_gtest)
+[0.543s] 
+[0.543s] [0m
+[0.543s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.543s]   Target "test_twist_subscriber" links to target "smclib::smclib_header" but
+[0.543s]   the target was not found.  Perhaps a find_package() call is missing for an
+[0.543s]   IMPORTED target, or an ALIAS target is missing?
+[0.543s] Call Stack (most recent call first):
+[0.543s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.543s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.543s]   test/CMakeLists.txt:52 (ament_add_gtest)
+[0.544s] 
+[0.544s] [0m
+[0.544s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.544s]   Target "test_validation_messages" links to target "smclib::smclib_header"
+[0.544s]   but the target was not found.  Perhaps a find_package() call is missing for
+[0.544s]   an IMPORTED target, or an ALIAS target is missing?
+[0.544s] Call Stack (most recent call first):
+[0.544s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.544s]   /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.544s]   test/CMakeLists.txt:55 (ament_add_gtest)
+[0.544s] 
+[0.544s] [0m
+[0.603s] -- Generating done
+[0.606s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[0.615s] Invoked command in '/home/autodrive_devkit/build/nav2_util' returned '1': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_msgs:/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_msgs:/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble LD_LIBRARY_PATH=/home/autodrive_devkit/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/autodrive_devkit/src/navigation2/nav2_util -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/nav2_util

@@ -1,0 +1,270 @@
+[0.078s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.078s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f6ba405ce20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f6ba405c7f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f6ba405c7f0>>, mixin_verb=('build',))
+[0.174s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.175s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.175s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.175s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/autodrive_devkit'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_devkit) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_devkit) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_devkit) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_devkit) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_devkit) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_devkit) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_devkit) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_devkit) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/autodrive_devkit) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autodrive_devkit' with type 'ros.ament_python' and name 'autodrive_f1tenth'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_stanley_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_stanley_controller) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_stanley_controller) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_stanley_controller) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_stanley_controller) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_stanley_controller) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_stanley_controller) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_stanley_controller) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/f1tenth_stanley_controller) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/f1tenth_stanley_controller' with type 'ros.ament_python' and name 'f1tenth_stanley_controller'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization_f1tenth) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam_toolbox) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam_toolbox' with type 'ros.ament_cmake' and name 'slam_toolbox'
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'autodrive_f1tenth' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'autodrive_f1tenth' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autodrive_devkit/build/autodrive_f1tenth', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autodrive_devkit/install/autodrive_f1tenth', 'merge_install': False, 'path': '/home/autodrive_devkit/src/autodrive_devkit', 'symlink_install': True, 'test_result_base': None}
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stanley_controller' build argument 'cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stanley_controller' build argument 'cmake_target' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stanley_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stanley_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stanley_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stanley_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stanley_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stanley_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'f1tenth_stanley_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.206s] DEBUG:colcon.colcon_core.verb:Building package 'f1tenth_stanley_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autodrive_devkit/build/f1tenth_stanley_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autodrive_devkit/install/f1tenth_stanley_controller', 'merge_install': False, 'path': '/home/autodrive_devkit/src/f1tenth_stanley_controller', 'symlink_install': True, 'test_result_base': None}
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'slam_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.206s] DEBUG:colcon.colcon_core.verb:Building package 'slam_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/autodrive_devkit/build/slam_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/autodrive_devkit/install/slam_toolbox', 'merge_install': False, 'path': '/home/autodrive_devkit/src/slam_toolbox', 'symlink_install': True, 'test_result_base': None}
+[0.206s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.207s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/autodrive_devkit/src/autodrive_devkit' with build type 'ament_python'
+[0.207s] Level 1:colcon.colcon_core.shell:create_environment_hook('autodrive_f1tenth', 'ament_prefix_path')
+[0.209s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/ament_prefix_path.ps1'
+[0.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/ament_prefix_path.dsv'
+[0.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/ament_prefix_path.sh'
+[0.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.214s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/autodrive_devkit/src/f1tenth_stanley_controller' with build type 'ament_python'
+[0.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_stanley_controller', 'ament_prefix_path')
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/hook/ament_prefix_path.ps1'
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/hook/ament_prefix_path.dsv'
+[0.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/hook/ament_prefix_path.sh'
+[0.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.218s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/autodrive_devkit/src/slam_toolbox' with build type 'ament_cmake'
+[0.218s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/autodrive_devkit/src/slam_toolbox'
+[0.219s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.219s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/autodrive_devkit/src/autodrive_devkit'
+[0.386s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.386s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.554s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/autodrive_devkit/src/f1tenth_stanley_controller'
+[0.555s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.555s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive_devkit/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/slam_toolbox
+[0.799s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index/packages/autodrive_f1tenth
+[0.799s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/package.xml
+[0.799s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch/simulator_bringup_rviz.launch.py
+[0.799s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch/simulator_bringup_headless.launch.py
+[0.799s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz/simulator.rviz
+[0.799s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth/autodrive_bridge
+[0.799s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth/teleop_keyboard
+[0.802s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/f1tenth_stanley_controller/share/ament_index/resource_index/packages/f1tenth_stanley_controller
+[0.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive_devkit/build/autodrive_f1tenth': PYTHONPATH=/home/autodrive_devkit/build/autodrive_f1tenth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/autodrive_f1tenth/build --no-deps symlink_data --force
+[0.802s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/package.xml
+[0.802s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/launch/controller_launch.py
+[0.802s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/launch/amcl_working.launch.py
+[0.802s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/f1tenth_stanley_controller/controller_node
+[0.802s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/autodrive_devkit/install/f1tenth_stanley_controller/lib/f1tenth_stanley_controller/fake_tf_node
+[0.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive_devkit/build/f1tenth_stanley_controller': PYTHONPATH=/home/autodrive_devkit/build/f1tenth_stanley_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/f1tenth_stanley_controller/build --no-deps symlink_data --force
+[1.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('autodrive_f1tenth', 'pythonpath_develop')
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/build/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath_develop.ps1'
+[1.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive_devkit/build/autodrive_f1tenth' returned '0': PYTHONPATH=/home/autodrive_devkit/build/autodrive_f1tenth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/autodrive_f1tenth/build --no-deps symlink_data --force
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive_devkit/build/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath_develop.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/build/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath_develop.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/autodrive_f1tenth' for CMake module files
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/autodrive_f1tenth' for CMake config files
+[1.114s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/autodrive_f1tenth/lib'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/autodrive_f1tenth/bin'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/autodrive_f1tenth/lib/pkgconfig/autodrive_f1tenth.pc'
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages'
+[1.115s] Level 1:colcon.colcon_core.shell:create_environment_hook('autodrive_f1tenth', 'pythonpath')
+[1.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath.ps1'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath.dsv'
+[1.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/hook/pythonpath.sh'
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/autodrive_f1tenth/bin'
+[1.117s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autodrive_f1tenth)
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/package.ps1'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/package.dsv'
+[1.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/package.sh'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/package.bash'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/package.zsh'
+[1.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive_devkit/install/autodrive_f1tenth/share/colcon-core/packages/autodrive_f1tenth)
+[1.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_stanley_controller', 'pythonpath_develop')
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/build/f1tenth_stanley_controller/share/f1tenth_stanley_controller/hook/pythonpath_develop.ps1'
+[1.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive_devkit/build/f1tenth_stanley_controller' returned '0': PYTHONPATH=/home/autodrive_devkit/build/f1tenth_stanley_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/f1tenth_stanley_controller/build --no-deps symlink_data --force
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive_devkit/build/f1tenth_stanley_controller/share/f1tenth_stanley_controller/hook/pythonpath_develop.dsv'
+[1.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/build/f1tenth_stanley_controller/share/f1tenth_stanley_controller/hook/pythonpath_develop.sh'
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/f1tenth_stanley_controller' for CMake module files
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/f1tenth_stanley_controller' for CMake config files
+[1.123s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/f1tenth_stanley_controller/lib'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/f1tenth_stanley_controller/bin'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/pkgconfig/f1tenth_stanley_controller.pc'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages'
+[1.124s] Level 1:colcon.colcon_core.shell:create_environment_hook('f1tenth_stanley_controller', 'pythonpath')
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/hook/pythonpath.ps1'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/hook/pythonpath.dsv'
+[1.124s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/hook/pythonpath.sh'
+[1.124s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/f1tenth_stanley_controller/bin'
+[1.125s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(f1tenth_stanley_controller)
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/package.ps1'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/package.dsv'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/package.sh'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/package.bash'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/f1tenth_stanley_controller/share/f1tenth_stanley_controller/package.zsh'
+[1.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive_devkit/install/f1tenth_stanley_controller/share/colcon-core/packages/f1tenth_stanley_controller)
+[2.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive_devkit/build/slam_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake /home/autodrive_devkit/src/slam_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/slam_toolbox
+[2.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/autodrive_devkit/build/slam_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/build/slam_toolbox -- -j16 -l16
+[2.708s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/autodrive_devkit/build/slam_toolbox' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/autodrive_devkit/install/nav2_simple_commander:/home/autodrive_devkit/install/nav2_loopback_sim:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble /usr/bin/cmake --build /home/autodrive_devkit/build/slam_toolbox -- -j16 -l16
+[3.124s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_toolbox)
+[3.124s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/slam_toolbox' for CMake module files
+[3.125s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/slam_toolbox' for CMake config files
+[3.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'cmake_prefix_path')
+[3.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.ps1'
+[3.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.dsv'
+[3.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/hook/cmake_prefix_path.sh'
+[3.129s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/slam_toolbox/lib'
+[3.130s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_toolbox', 'ld_library_path_lib')
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.ps1'
+[3.130s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.dsv'
+[3.131s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/hook/ld_library_path_lib.sh'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/slam_toolbox/bin'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/slam_toolbox/lib/pkgconfig/slam_toolbox.pc'
+[3.131s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/slam_toolbox/lib/python3.10/site-packages'
+[3.132s] Level 1:colcon.colcon_core.environment:checking '/home/autodrive_devkit/install/slam_toolbox/bin'
+[3.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/package.ps1'
+[3.133s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/package.dsv'
+[3.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/package.sh'
+[3.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/package.bash'
+[3.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/autodrive_devkit/install/slam_toolbox/share/slam_toolbox/package.zsh'
+[3.135s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/autodrive_devkit/install/slam_toolbox/share/colcon-core/packages/slam_toolbox)
+[3.145s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.146s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[3.146s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.155s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.157s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[3.158s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.159s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive_devkit/install/local_setup.ps1'
+[3.160s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autodrive_devkit/install/_local_setup_util_ps1.py'
+[3.162s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive_devkit/install/setup.ps1'
+[3.163s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive_devkit/install/local_setup.sh'
+[3.164s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/autodrive_devkit/install/_local_setup_util_sh.py'
+[3.164s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive_devkit/install/setup.sh'
+[3.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive_devkit/install/local_setup.bash'
+[3.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive_devkit/install/setup.bash'
+[3.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/autodrive_devkit/install/local_setup.zsh'
+[3.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/autodrive_devkit/install/setup.zsh'

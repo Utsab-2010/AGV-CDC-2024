@@ -1,0 +1,25 @@
+-- Install configuration: "Release"
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core/charging_dock.hpp
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core/non_charging_dock.hpp
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core/docking_exceptions.hpp
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/ament_index/resource_index/package_run_dependencies/opennav_docking_core
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/ament_index/resource_index/parent_prefix_path/opennav_docking_core
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/environment/ament_prefix_path.sh
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/environment/ament_prefix_path.dsv
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/environment/path.sh
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/environment/path.dsv
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/local_setup.bash
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/local_setup.sh
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/local_setup.zsh
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/local_setup.dsv
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/package.dsv
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/ament_index/resource_index/packages/opennav_docking_core
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/opennav_docking_coreExport.cmake
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/opennav_docking_coreConfig.cmake
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/opennav_docking_coreConfig-version.cmake
+-- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/package.xml

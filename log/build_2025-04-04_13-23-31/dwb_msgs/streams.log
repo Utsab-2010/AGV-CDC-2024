@@ -1,0 +1,35 @@
+[0.013s] Invoking command in '/home/autodrive_devkit/build/dwb_msgs': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav_2d_msgs:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble LD_LIBRARY_PATH=/home/autodrive_devkit/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/autodrive_devkit/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/autodrive_devkit/build/dwb_msgs -- -j16 -l16
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_generator_c[0m
+[0.061s] [  1%] Built target dwb_msgs__cpp
+[0.062s] [ 12%] Built target dwb_msgs__rosidl_generator_c
+[0.067s] [ 12%] Built target ament_cmake_python_copy_dwb_msgs
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_c[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_cpp[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.071s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_c[0m
+[0.072s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.083s] [ 35%] Built target dwb_msgs__rosidl_typesupport_c
+[0.083s] [ 35%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[0.089s] [ 58%] Built target dwb_msgs__rosidl_typesupport_cpp
+[0.089s] [ 58%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[0.090s] [ 70%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[0.093s] [ 82%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[0.115s] [ 82%] Built target dwb_msgs
+[0.146s] [ 83%] Built target dwb_msgs__py
+[0.163s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_generator_py[0m
+[0.186s] [ 93%] Built target dwb_msgs__rosidl_generator_py
+[0.195s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.196s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_c__pyext[0m
+[0.198s] [35m[1mConsolidate compiler generated dependencies of target dwb_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[0.207s] [ 95%] Built target dwb_msgs__rosidl_typesupport_c__pyext
+[0.211s] [ 97%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.211s] [100%] Built target dwb_msgs__rosidl_typesupport_introspection_c__pyext
+[0.214s] running egg_info
+[0.214s] writing dwb_msgs.egg-info/PKG-INFO
+[0.214s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[0.214s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[0.216s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[0.217s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[0.240s] [100%] Built target ament_cmake_python_build_dwb_msgs_egg
+[0.257s] Invoked command in '/home/autodrive_devkit/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav_2d_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav_2d_msgs:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble LD_LIBRARY_PATH=/home/autodrive_devkit/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/autodrive_devkit/install/nav_2d_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/autodrive_devkit/build/dwb_msgs -- -j16 -l16

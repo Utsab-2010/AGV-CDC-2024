@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating autodrive_f1tenth.egg-info
+writing autodrive_f1tenth.egg-info/PKG-INFO
+writing dependency_links to autodrive_f1tenth.egg-info/dependency_links.txt
+writing entry points to autodrive_f1tenth.egg-info/entry_points.txt
+writing requirements to autodrive_f1tenth.egg-info/requires.txt
+writing top-level names to autodrive_f1tenth.egg-info/top_level.txt
+writing manifest file 'autodrive_f1tenth.egg-info/SOURCES.txt'
+reading manifest file 'autodrive_f1tenth.egg-info/SOURCES.txt'
+writing manifest file 'autodrive_f1tenth.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive-f1tenth.egg-link (link to .)
+Installing autodrive_bridge script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth
+Installing teleop_keyboard script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth
+
+Installed /home/autodrive_devkit/build/autodrive_f1tenth
+running symlink_data
+creating /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index
+creating /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index
+creating /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index/packages
+symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/resource/autodrive_f1tenth -> /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index/packages
+symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/package.xml -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth
+creating /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch
+symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/launch/simulator_bringup_rviz.launch.py -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch
+symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/launch/simulator_bringup_headless.launch.py -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch
+creating /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz
+symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/rviz/simulator.rviz -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz

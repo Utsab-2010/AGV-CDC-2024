@@ -1,0 +1,5 @@
+[  1%] Built target slam_toolbox__cpp
+[ 10%] Built target slam_toolbox__rosidl_generator_c
+[ 12%] Built target kartoSlamToolbox
+[ 20%] Built target slam_toolbox__rosidl_typesupport_cpp
+[ 29%] Built target slam_toolbox__rosidl_typesupport_fastrtps_cpp

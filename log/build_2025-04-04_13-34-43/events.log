@@ -1,0 +1,312 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (-) JobUnselected: {'identifier': 'autodrive_f1tenth'}
+[0.000243] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000284] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.000311] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.000373] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.000398] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.000420] (-) JobUnselected: {'identifier': 'f1tenth_stanley_controller'}
+[0.000453] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.000501] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.000545] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.000567] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.000587] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.000618] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.000642] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.000663] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.000706] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.000729] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.000751] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.000790] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.000820] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.000841] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.000895] (-) JobUnselected: {'identifier': 'nav2_loopback_sim'}
+[0.000916] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.000937] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.001094] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.001119] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.001140] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.001161] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.001205] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.001228] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.001249] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.001285] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.001314] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.001334] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.001354] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.001375] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.001395] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.001415] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.001436] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.001472] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.001493] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.001513] (-) JobUnselected: {'identifier': 'opennav_docking'}
+[0.001550] (-) JobUnselected: {'identifier': 'opennav_docking_bt'}
+[0.001577] (-) JobUnselected: {'identifier': 'opennav_docking_core'}
+[0.001597] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.001644] (nav2_util) JobQueued: {'identifier': 'nav2_util', 'dependencies': OrderedDict([('nav2_common', '/home/autodrive_devkit/install/nav2_common'), ('nav2_msgs', '/home/autodrive_devkit/install/nav2_msgs')])}
+[0.001677] (nav2_util) JobStarted: {'identifier': 'nav2_util'}
+[0.015544] (nav2_util) JobProgress: {'identifier': 'nav2_util', 'progress': 'cmake'}
+[0.016285] (nav2_util) Command: {'cmd': ['/usr/bin/cmake', '/home/autodrive_devkit/src/navigation2/nav2_util', '-DCMAKE_INSTALL_PREFIX=/home/autodrive_devkit/install/nav2_util'], 'cwd': '/home/autodrive_devkit/build/nav2_util', 'env': OrderedDict([('HOSTNAME', 'UTSAB-OMEN'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/autodrive_devkit/install/nav2_msgs/lib:/home/autodrive_devkit/install/slam_toolbox/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/home/autodrive_devkit/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/autodrive_devkit/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/runtime-root'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/autodrive_devkit/install/nav2_msgs:/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble'), ('PWD', '/home/autodrive_devkit/build/nav2_util'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/autodrive_devkit/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:/home/autodrive_devkit/install/slam_toolbox/local/lib/python3.10/dist-packages:/home/autodrive_devkit/install/f1tenth_stanley_controller/lib/python3.10/site-packages:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/autodrive_devkit/install/nav2_msgs:/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble')]), 'shell': False}
+[0.070237] (nav2_util) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099495] (-) TimerEvent: {}
+[0.128095] (nav2_util) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.138049] (nav2_util) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199654] (-) TimerEvent: {}
+[0.215592] (nav2_util) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.223166] (nav2_util) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.223374] (nav2_util) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.223515] (nav2_util) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.225271] (nav2_util) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299802] (-) TimerEvent: {}
+[0.302007] (nav2_util) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.310375] (nav2_util) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.310557] (nav2_util) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.310830] (nav2_util) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.313774] (nav2_util) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399946] (-) TimerEvent: {}
+[0.441821] (nav2_util) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500058] (-) TimerEvent: {}
+[0.523975] (nav2_util) StdoutLine: {'line': b'-- Found bond: 3.0.2 (/opt/ros/humble/share/bond/cmake)\n'}
+[0.556831] (nav2_util) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.561742] (nav2_util) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.568536] (nav2_util) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.577610] (nav2_util) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.589820] (nav2_util) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600167] (-) TimerEvent: {}
+[0.615127] (nav2_util) StdoutLine: {'line': b'-- Found bondcpp: 4.1.2 (/opt/ros/humble/share/bondcpp/cmake)\n'}
+[0.650304] (nav2_util) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.652996] (nav2_util) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700293] (-) TimerEvent: {}
+[0.744423] (nav2_util) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.767155] (nav2_util) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.800403] (-) TimerEvent: {}
+[0.804881] (nav2_util) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.813250] (nav2_util) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.895645] (nav2_util) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.896062] (nav2_util) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900502] (-) TimerEvent: {}
+[0.980599] (nav2_util) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.982496] (nav2_util) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.000608] (-) TimerEvent: {}
+[1.031860] (nav2_util) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.039130] (nav2_util) StdoutLine: {'line': b'-- Found nav2_common: 1.3.1 (/home/autodrive_devkit/install/nav2_common/share/nav2_common/cmake)\n'}
+[1.039423] (nav2_util) StdoutLine: {'line': b'-- Found nav2_msgs: 1.3.1 (/home/autodrive_devkit/install/nav2_msgs/share/nav2_msgs/cmake)\n'}
+[1.099435] (nav2_util) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.10 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.100714] (-) TimerEvent: {}
+[1.107608] (nav2_util) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.117462] (nav2_util) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.132868] (nav2_util) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.133680] (nav2_util) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.133821] (nav2_util) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.173732] (nav2_util) StdoutLine: {'line': b'-- Setting build type to Release as none was specified.\n'}
+[1.176706] (nav2_util) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.178838] (nav2_util) StdoutLine: {'line': b'-- Found ament_cmake_pytest: 1.3.10 (/opt/ros/humble/share/ament_cmake_pytest/cmake)\n'}
+[1.200842] (-) TimerEvent: {}
+[1.262540] (nav2_util) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.285902] (nav2_util) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.286100] (nav2_util) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.286193] (nav2_util) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.288086] (nav2_util) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.288235] (nav2_util) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.289118] (nav2_util) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.291808] (nav2_util) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.292012] (nav2_util) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.292115] (nav2_util) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.293635] (nav2_util) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.300953] (-) TimerEvent: {}
+[1.301794] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:1 (add_library):\n'}
+[1.301964] (nav2_util) StderrLine: {'line': b'  Target "nav2_util_core" links to target "smclib::smclib_header" but the\n'}
+[1.302053] (nav2_util) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.302386] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.302757] (nav2_util) StderrLine: {'line': b'\n'}
+[1.303097] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.303182] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:35 (add_executable):\n'}
+[1.303253] (nav2_util) StderrLine: {'line': b'  Target "lifecycle_bringup" links to target "smclib::smclib_header" but the\n'}
+[1.303317] (nav2_util) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.303388] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.303448] (nav2_util) StderrLine: {'line': b'\n'}
+[1.303506] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.303566] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at src/CMakeLists.txt:40 (add_executable):\n'}
+[1.303625] (nav2_util) StderrLine: {'line': b'  Target "base_footprint_publisher" links to target "smclib::smclib_header"\n'}
+[1.303682] (nav2_util) StderrLine: {'line': b'  but the target was not found.  Perhaps a find_package() call is missing for\n'}
+[1.303740] (nav2_util) StderrLine: {'line': b'  an IMPORTED target, or an ALIAS target is missing?\n'}
+[1.303809] (nav2_util) StderrLine: {'line': b'\n'}
+[1.303868] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.303926] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.303985] (nav2_util) StderrLine: {'line': b'  Target "test_execution_timer" links to target "smclib::smclib_header" but\n'}
+[1.304042] (nav2_util) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.304100] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.304157] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.304214] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.304272] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.304330] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:1 (ament_add_gtest)\n'}
+[1.304395] (nav2_util) StderrLine: {'line': b'\n'}
+[1.304454] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.304512] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.304578] (nav2_util) StderrLine: {'line': b'  Target "test_node_utils" links to target "smclib::smclib_header" but the\n'}
+[1.304638] (nav2_util) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.304697] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.304761] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.304821] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.304880] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.304937] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:4 (ament_add_gtest)\n'}
+[1.304995] (nav2_util) StderrLine: {'line': b'\n'}
+[1.305051] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.305108] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.305166] (nav2_util) StderrLine: {'line': b'  Target "test_service_client" links to target "smclib::smclib_header" but\n'}
+[1.305224] (nav2_util) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.305281] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.305338] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.305395] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.305452] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.305510] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:10 (ament_add_gtest)\n'}
+[1.305567] (nav2_util) StderrLine: {'line': b'\n'}
+[1.305624] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.305681] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.305738] (nav2_util) StderrLine: {'line': b'  Target "test_service_server" links to target "smclib::smclib_header" but\n'}
+[1.305796] (nav2_util) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.305854] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.305912] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.305975] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.306044] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.306104] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:13 (ament_add_gtest)\n'}
+[1.306164] (nav2_util) StderrLine: {'line': b'\n'}
+[1.306223] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.306281] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.306339] (nav2_util) StderrLine: {'line': b'  Target "test_string_utils" links to target "smclib::smclib_header" but the\n'}
+[1.306396] (nav2_util) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.306454] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.306510] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.306567] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.306624] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.306691] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:16 (ament_add_gtest)\n'}
+[1.306748] (nav2_util) StderrLine: {'line': b'\n'}
+[1.306806] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.306871] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.306931] (nav2_util) StderrLine: {'line': b'  Target "test_lifecycle_utils" links to target "smclib::smclib_header" but\n'}
+[1.306995] (nav2_util) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.307053] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.307110] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.307166] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.307223] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.307281] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:20 (ament_add_gtest)\n'}
+[1.307347] (nav2_util) StderrLine: {'line': b'\n'}
+[1.307409] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.307465] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.307522] (nav2_util) StderrLine: {'line': b'  Target "test_actions" links to target "smclib::smclib_header" but the\n'}
+[1.307579] (nav2_util) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.307635] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.307692] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.307755] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.307811] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.307867] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:23 (ament_add_gtest)\n'}
+[1.307924] (nav2_util) StderrLine: {'line': b'\n'}
+[1.307980] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.308036] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.308092] (nav2_util) StderrLine: {'line': b'  Target "test_lifecycle_node" links to target "smclib::smclib_header" but\n'}
+[1.308149] (nav2_util) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.308205] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.308261] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.308317] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.308374] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.308431] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:26 (ament_add_gtest)\n'}
+[1.308487] (nav2_util) StderrLine: {'line': b'\n'}
+[1.308544] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.308600] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.308657] (nav2_util) StderrLine: {'line': b'  Target "test_lifecycle_cli_node" links to target "smclib::smclib_header"\n'}
+[1.308713] (nav2_util) StderrLine: {'line': b'  but the target was not found.  Perhaps a find_package() call is missing for\n'}
+[1.308776] (nav2_util) StderrLine: {'line': b'  an IMPORTED target, or an ALIAS target is missing?\n'}
+[1.308832] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.308889] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.308946] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.309003] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:29 (ament_add_gtest)\n'}
+[1.309059] (nav2_util) StderrLine: {'line': b'\n'}
+[1.309114] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.309170] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.309226] (nav2_util) StderrLine: {'line': b'  Target "test_geometry_utils" links to target "smclib::smclib_header" but\n'}
+[1.309282] (nav2_util) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.309344] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.309400] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.309456] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.309513] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.309570] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:32 (ament_add_gtest)\n'}
+[1.309626] (nav2_util) StderrLine: {'line': b'\n'}
+[1.309682] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.309738] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.309795] (nav2_util) StderrLine: {'line': b'  Target "test_odometry_utils" links to target "smclib::smclib_header" but\n'}
+[1.309851] (nav2_util) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.309908] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.309964] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.310020] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.310077] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.310133] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:35 (ament_add_gtest)\n'}
+[1.310190] (nav2_util) StderrLine: {'line': b'\n'}
+[1.310245] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.310302] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.310359] (nav2_util) StderrLine: {'line': b'  Target "test_robot_utils" links to target "smclib::smclib_header" but the\n'}
+[1.310416] (nav2_util) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.310472] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.310528] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.310585] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.310641] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.310703] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:38 (ament_add_gtest)\n'}
+[1.310759] (nav2_util) StderrLine: {'line': b'\n'}
+[1.310816] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.310877] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.310934] (nav2_util) StderrLine: {'line': b'  Target "test_base_footprint_publisher" links to target\n'}
+[1.310991] (nav2_util) StderrLine: {'line': b'  "smclib::smclib_header" but the target was not found.  Perhaps a\n'}
+[1.311047] (nav2_util) StderrLine: {'line': b'  find_package() call is missing for an IMPORTED target, or an ALIAS target\n'}
+[1.311104] (nav2_util) StderrLine: {'line': b'  is missing?\n'}
+[1.311160] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.311216] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.311273] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.311349] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:41 (ament_add_gtest)\n'}
+[1.311416] (nav2_util) StderrLine: {'line': b'\n'}
+[1.311473] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.311529] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.311595] (nav2_util) StderrLine: {'line': b'  Target "test_array_parser" links to target "smclib::smclib_header" but the\n'}
+[1.311651] (nav2_util) StderrLine: {'line': b'  target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.311711] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.311770] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.311828] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.311885] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.311942] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:46 (ament_add_gtest)\n'}
+[1.311999] (nav2_util) StderrLine: {'line': b'\n'}
+[1.312055] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.312111] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.312167] (nav2_util) StderrLine: {'line': b'  Target "test_twist_publisher" links to target "smclib::smclib_header" but\n'}
+[1.312224] (nav2_util) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.312281] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.312338] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.312395] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.312451] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.312508] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:49 (ament_add_gtest)\n'}
+[1.312564] (nav2_util) StderrLine: {'line': b'\n'}
+[1.312621] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.312676] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.312739] (nav2_util) StderrLine: {'line': b'  Target "test_twist_subscriber" links to target "smclib::smclib_header" but\n'}
+[1.312795] (nav2_util) StderrLine: {'line': b'  the target was not found.  Perhaps a find_package() call is missing for an\n'}
+[1.312823] (nav2_util) StderrLine: {'line': b'  IMPORTED target, or an ALIAS target is missing?\n'}
+[1.312849] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.312876] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.312902] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.312927] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:52 (ament_add_gtest)\n'}
+[1.312952] (nav2_util) StderrLine: {'line': b'\n'}
+[1.312976] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.313001] (nav2_util) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):\n'}
+[1.313026] (nav2_util) StderrLine: {'line': b'  Target "test_validation_messages" links to target "smclib::smclib_header"\n'}
+[1.313051] (nav2_util) StderrLine: {'line': b'  but the target was not found.  Perhaps a find_package() call is missing for\n'}
+[1.313077] (nav2_util) StderrLine: {'line': b'  an IMPORTED target, or an ALIAS target is missing?\n'}
+[1.313102] (nav2_util) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.313127] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)\n'}
+[1.313152] (nav2_util) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)\n'}
+[1.313177] (nav2_util) StderrLine: {'line': b'  test/CMakeLists.txt:55 (ament_add_gtest)\n'}
+[1.313202] (nav2_util) StderrLine: {'line': b'\n'}
+[1.313227] (nav2_util) StderrLine: {'line': b'\x1b[0m\n'}
+[1.372591] (nav2_util) StdoutLine: {'line': b'-- Generating done\n'}
+[1.375721] (nav2_util) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[1.387800] (nav2_util) CommandEnded: {'returncode': 1}
+[1.401076] (-) TimerEvent: {}
+[1.417446] (nav2_util) JobEnded: {'identifier': 'nav2_util', 'rc': 1}
+[1.428113] (-) EventReactorShutdown: {}

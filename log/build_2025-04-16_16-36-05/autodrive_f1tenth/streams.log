@@ -1,0 +1,25 @@
+[0.611s] Invoking command in '/home/autodrive_devkit/build/autodrive_f1tenth': PYTHONPATH=/home/autodrive_devkit/build/autodrive_f1tenth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/autodrive_f1tenth/build --no-deps symlink_data --force
+[0.791s] running develop
+[0.791s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.791s]   warnings.warn(
+[0.877s] running egg_info
+[0.877s] writing autodrive_f1tenth.egg-info/PKG-INFO
+[0.877s] writing dependency_links to autodrive_f1tenth.egg-info/dependency_links.txt
+[0.878s] writing entry points to autodrive_f1tenth.egg-info/entry_points.txt
+[0.878s] writing requirements to autodrive_f1tenth.egg-info/requires.txt
+[0.878s] writing top-level names to autodrive_f1tenth.egg-info/top_level.txt
+[0.879s] reading manifest file 'autodrive_f1tenth.egg-info/SOURCES.txt'
+[0.880s] writing manifest file 'autodrive_f1tenth.egg-info/SOURCES.txt'
+[0.881s] running build_ext
+[0.881s] Creating /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive-f1tenth.egg-link (link to .)
+[0.881s] Installing autodrive_bridge script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[0.882s] Installing teleop_keyboard script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth
+[0.882s] 
+[0.882s] Installed /home/autodrive_devkit/build/autodrive_f1tenth
+[0.882s] running symlink_data
+[0.882s] symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/resource/autodrive_f1tenth -> /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index/packages
+[0.882s] symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/package.xml -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth
+[0.882s] symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/launch/simulator_bringup_rviz.launch.py -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch
+[0.882s] symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/launch/simulator_bringup_headless.launch.py -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch
+[0.883s] symbolically linking /home/autodrive_devkit/build/autodrive_f1tenth/rviz/simulator.rviz -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz
+[0.912s] Invoked command in '/home/autodrive_devkit/build/autodrive_f1tenth' returned '0': PYTHONPATH=/home/autodrive_devkit/build/autodrive_f1tenth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/autodrive_devkit/build/autodrive_f1tenth/build --no-deps symlink_data --force

@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/autodrive_devkit/build/opennav_docking_core': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/autodrive_devkit/build/opennav_docking_core -- -j16 -l16
+[0.043s] Invoked command in '/home/autodrive_devkit/build/opennav_docking_core' returned '0': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/autodrive_devkit/build/opennav_docking_core -- -j16 -l16
+[0.061s] Invoking command in '/home/autodrive_devkit/build/opennav_docking_core': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/autodrive_devkit/build/opennav_docking_core
+[0.067s] -- Install configuration: "Release"
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core/charging_dock.hpp
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core/non_charging_dock.hpp
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/include/opennav_docking_core/opennav_docking_core/docking_exceptions.hpp
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/ament_index/resource_index/package_run_dependencies/opennav_docking_core
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/ament_index/resource_index/parent_prefix_path/opennav_docking_core
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/environment/ament_prefix_path.sh
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/environment/ament_prefix_path.dsv
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/environment/path.sh
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/environment/path.dsv
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/local_setup.bash
+[0.067s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/local_setup.sh
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/local_setup.zsh
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/local_setup.dsv
+[0.068s] -- Installing: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/package.dsv
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/ament_index/resource_index/packages/opennav_docking_core
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/opennav_docking_coreExport.cmake
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/ament_cmake_export_targets-extras.cmake
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/opennav_docking_coreConfig.cmake
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/cmake/opennav_docking_coreConfig-version.cmake
+[0.068s] -- Up-to-date: /home/autodrive_devkit/install/opennav_docking_core/share/opennav_docking_core/package.xml
+[0.070s] Invoked command in '/home/autodrive_devkit/build/opennav_docking_core' returned '0': AMENT_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/autodrive_devkit/install/nav2_common:/home/autodrive_devkit/install/slam_toolbox:/home/autodrive_devkit/install/f1tenth_stanley_controller:/home/autodrive_devkit/install/autodrive_f1tenth:/opt/ros/humble PYTHONPATH=/home/autodrive_devkit/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/autodrive_devkit/build/opennav_docking_core
