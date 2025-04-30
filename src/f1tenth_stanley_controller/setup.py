@@ -28,7 +28,8 @@ setup(
         'console_scripts': [
             'controller_node = f1tenth_stanley_controller.controller_node:main',
             'fake_tf_node = f1tenth_stanley_controller.fake_tf_tree_pub:main',
-            'wheel_odom_publisher_node = f1tenth_stanley_controller.wheel_odom_pub:main'
+            'wheel_odom_publisher_node = f1tenth_stanley_controller.wheel_odom_pub:main',
+            'particle_cloud_rviz = f1tenth_stanley_controller.particle_cloud_rviz:main'
         ],
     },
 )

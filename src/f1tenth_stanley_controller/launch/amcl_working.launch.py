@@ -51,48 +51,6 @@ def generate_launch_description():
             cmd=['ros2', 'run', 'nav2_util', 'lifecycle_bringup', 'map_server'],
             output='screen'
         ),
-        # ExecuteProcess(
-        #     cmd=[
-        #         'ros2', 'topic', 'pub', '/initialpose',
-        #         'geometry_msgs/msg/PoseWithCovarianceStamped',
-        #         '"{header: {stamp: {sec: 0, nanosec: 0}, frame_id: \"world\"}, ' \
-        #         'pose: {pose: {position: {x: 0.74 ,y: 2.8418,z: 0.0592}, ' \
-        #         'orientation: {x: -0.0111, y: 0.0111,z: 0.7071,w: 0.707}, ' \
-        #         'covariance: [0.25,0,0,0,0,0,0,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0685]}}"'
-        #     ],
-        #     output='screen'
-        # ),
-        Node(
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            name='odom_to_base',
-            arguments=['10', '0', '5', '0', '0', '0', '1' , 'odom', 'f1tenth_1'],
-            remappings=[
-                ('/tf', '/fake_tf'),
-                ('/tf_static', '/fake_tf_static')
-            ],
-            output='screen'
-        ),
-        Node(
-            package='f1tenth_stanley_controller',
-            executable='wheel_odom_publisher_node',
-            name='wheel_odom_publisher_node',
-            output='screen',
-
-        ),
-        # Node(
-        #     package='robot_localization',
-        #     executable='ekf_node',
-        #     name='ekf_filter_node',
-        #     output='screen',
-        #     remappings=[
-        #         ('/tf', '/fake_tf'),
-        #         ('/tf_static', '/fake_tf_static')  # Optional but recommended
-        #     ],
-        #     parameters=[
-        #         '/home/autodrive_devkit/ekf.yaml'
-        #     ]
-        # ),
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
@@ -115,6 +73,51 @@ def generate_launch_description():
             ],
             output='screen'
         ),
+        # ExecuteProcess(
+        #     cmd=[
+        #         'ros2', 'topic', 'pub', '/initialpose',
+        #         'geometry_msgs/msg/PoseWithCovarianceStamped',
+        #         '"{header: {stamp: {sec: 0, nanosec: 0}, frame_id: \"world\"}, ' \
+        #         'pose: {pose: {position: {x: 0.74 ,y: 2.8418,z: 0.0592}, ' \
+        #         'orientation: {x: -0.0111, y: 0.0111,z: 0.7071,w: 0.707}, ' \
+        #         'covariance: [0.25,0,0,0,0,0,0,0.25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0.0685]}}"'
+        #     ],
+        #     output='screen'
+        # ),
+        Node(
+            package='f1tenth_stanley_controller',
+            executable='wheel_odom_publisher_node',
+            name='wheel_odom_publisher_node',
+            output='screen',
+
+        ),
+        Node(
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_filter_node',
+            output='screen',
+            remappings=[
+                ('/tf', '/fake_tf'),
+                ('/tf_static', '/fake_tf_static')  # Optional but recommended
+            ],
+            parameters=[
+                '/home/autodrive_devkit/ekf.yaml'
+            ]
+        ),
+        # Node(
+        #     package='tf2_ros',
+        #     executable='static_transform_publisher',
+        #     name='odom_to_base',
+        #     arguments=['10', '0', '5', '0', '0', '0', '1' , 'odom', 'f1tenth_1'],
+        #     remappings=[
+        #         ('/tf', '/fake_tf'),
+        #         ('/tf_static', '/fake_tf_static')
+        #     ],
+        #     output='screen'
+        # ),
+        
+        
+        
         # Node(
         #     package='tf2_ros',
         #     executable='static_transform_publisher',
