@@ -37,7 +37,7 @@ class WheelOdometryNode(Node):
         # self.theta = 1.57
         self.x=0
         self.y=0
-        self.theta=0
+        self.theta=1.57
         
         # Robot physical parameters (modify these for your robot)
         self.wheel_separation = 0.2360   # Distance between wheels in meters

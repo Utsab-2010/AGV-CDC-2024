@@ -55,11 +55,12 @@ def generate_launch_description():
             executable='wheel_odom_publisher_node',
             name='wheel_odom_publisher_node',
             output='screen',
-        ),
+            ),  
         TimerAction(
             # 2. robot_localization EKF node
             period=0.5,
-            actions = [Node(
+            actions = [
+            Node(
                 package='robot_localization',
                 executable='ekf_node',
                 name='ekf_filter_node',
@@ -70,7 +71,6 @@ def generate_launch_description():
                     ('/tf_static', '/fake_tf_static')
                 ]
             ),
-
             # 3. Static transforms
             Node(
                 package='tf2_ros',
@@ -94,6 +94,17 @@ def generate_launch_description():
                 ],
                 output='screen'
             ),
+            # Node(
+            #     package='tf2_ros',
+            #     executable='static_transform_publisher',
+            #     name='odomcar',
+            #     arguments=["0.08", "0", "0.055", "0", "0", "0", "1", 'odom', 'f1tenth_1'],
+            #     remappings=[
+            #         ('/tf', '/fake_tf'),
+            #         ('/tf_static', '/fake_tf_static')
+            #     ],
+            #     output='screen'
+            # ),
 
             # 4. Map Server (lifecycle node)
             Node(
@@ -136,4 +147,5 @@ def generate_launch_description():
                 ]
             )]
         )
-    ])
+    ]
+    )
